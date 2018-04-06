@@ -1,0 +1,384 @@
+﻿ 2018-04-04 15:21:42,086 [P10920/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.9.2 application starting on DOMAINPC
+ 2018-04-04 15:21:42,161 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-04-04 15:21:42,210 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 49ms)
+ 2018-04-04 15:21:42,436 [P10920/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-04-04 15:21:42,441 [P10920/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-04-04 15:21:42,447 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 15:21:43,628 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1182ms)
+ 2018-04-04 15:21:43,629 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-04-04 15:21:43,660 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 31ms)
+ 2018-04-04 15:21:43,734 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 15:21:43,736 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-04 15:21:43,736 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-04-04 15:21:43,761 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 24ms)
+ 2018-04-04 15:21:43,764 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 15:21:43,766 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-04 15:21:43,766 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-04-04 15:21:43,792 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 25ms)
+ 2018-04-04 15:21:43,848 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 15:21:43,849 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-04 15:21:43,849 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-04-04 15:21:43,874 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 25ms)
+ 2018-04-04 15:21:43,877 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 15:21:43,878 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-04 15:21:43,878 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-04-04 15:21:43,899 [P10920/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 21ms)
+ 2018-04-04 15:21:49,260 [P10920/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-04-04 15:21:50,392 [P10920/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-04-04 15:21:50,874 [P10920/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-04-04 15:21:51,489 [P10920/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-04-04 15:21:51,514 [P10920/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 9480ms)
+ 2018-04-04 15:21:52,192 [P10920/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:58002/umbraco
+ 2018-04-04 15:21:52,197 [P10920/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:58002/umbraco (UmbracoModule request)
+ 2018-04-04 15:22:18,413 [P10920/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 15:22:18,413 [P10920/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-04 15:22:18,414 [P10920/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-04-04 15:22:18,496 [P10920/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 82ms)
+ 2018-04-04 15:22:18,863 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 15:22:18,867 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 4ms)
+ 2018-04-04 15:22:18,868 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2018-04-04 15:22:18,939 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 71ms)
+ 2018-04-04 15:22:19,092 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 15:22:19,092 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-04 15:22:19,092 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-04-04 15:22:19,102 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 9ms)
+ 2018-04-04 15:22:26,942 [P10920/D2/T8] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username tanphat2k4@gmail.com from IP address ::1
+ 2018-04-04 15:22:26,953 [P10920/D2/T8] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: tanphat2k4@gmail.com logged in from IP address ::1
+ 2018-04-04 15:22:28,900 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 15:22:28,901 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-04 15:22:28,902 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2018-04-04 15:22:28,923 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 21ms)
+ 2018-04-04 15:22:28,974 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 15:22:28,974 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-04 15:22:28,974 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-04-04 15:22:28,974 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2018-04-04 15:22:28,990 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 15:22:28,990 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-04 15:22:28,990 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2018-04-04 15:22:29,005 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 22ms)
+ 2018-04-04 15:22:29,089 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 15:22:29,090 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-04 15:22:29,091 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2018-04-04 15:22:29,123 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 32ms)
+ 2018-04-04 15:22:33,661 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 15:22:33,662 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-04 15:22:33,682 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-04-04 15:22:33,712 [P10920/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 29ms)
+ 2018-04-04 15:22:47,142 [P10920/D2/T12] INFO  umbraco.content - Load Xml from file...
+ 2018-04-04 15:22:47,177 [P10920/D2/T12] INFO  umbraco.content - Loaded Xml from file.
+ 2018-04-04 15:23:10,853 [P10920/D2/T16] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 15:23:18,997 [P10920/D2/T17] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-04-03 15:23:18
+ 2018-04-04 15:41:59,484 [P10920/D2/T116] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: tanphat2k4@gmail.com, IP Address: ::1
+ 2018-04-04 16:23:43,469 [P10920/D2/T170] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:23:43,921 [P10920/D2/T160] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:23:44,284 [P10920/D2/T188] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:24:15,399 [P10920/D2/T189] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:24:19,915 [P10920/D2/T195] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:24:59,824 [P10920/D2/T166] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:25:04,225 [P10920/D2/T188] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:25:39,617 [P10920/D2/T158] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:25:39,983 [P10920/D2/T189] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:26:09,845 [P10920/D2/T186] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:26:14,164 [P10920/D2/T171] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:26:54,723 [P10920/D2/T169] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:26:59,236 [P10920/D2/T186] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:27:02,327 [P10920/D2/T172] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:27:02,632 [P10920/D2/T196] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:27:32,509 [P10920/D2/T196] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:27:37,116 [P10920/D2/T192] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:28:18,126 [P10920/D2/T172] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:28:22,451 [P10920/D2/T168] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:29:01,429 [P10920/D2/T187] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:29:05,842 [P10920/D2/T187] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:29:10,401 [P10920/D2/T185] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:29:10,733 [P10920/D2/T168] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:29:42,831 [P10920/D2/T185] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:29:47,308 [P10920/D2/T188] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:30:29,915 [P10920/D2/T164] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:30:34,747 [P10920/D2/T190] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:31:18,801 [P10920/D2/T197] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:31:19,312 [P10920/D2/T166] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:32:06,490 [P10920/D2/T158] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:32:07,068 [P10920/D2/T195] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:32:44,572 [P10920/D2/T168] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:32:49,166 [P10920/D2/T166] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:33:30,063 [P10920/D2/T189] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:33:34,932 [P10920/D2/T186] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:33:37,601 [P10920/D2/T171] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:33:38,090 [P10920/D2/T160] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:34:34,199 [P10920/D2/T189] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:34:38,799 [P10920/D2/T192] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:35:19,336 [P10920/D2/T172] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:35:19,743 [P10920/D2/T186] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:35:31,695 [P10920/D2/T190] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:35:32,189 [P10920/D2/T191] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:36:03,252 [P10920/D2/T162] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:36:10,172 [P10920/D2/T195] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:36:10,784 [P10920/D2/T168] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:36:43,710 [P10920/D2/T196] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:36:48,285 [P10920/D2/T168] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:37:09,909 [P10920/D2/T196] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:37:10,567 [P10920/D2/T170] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:37:44,794 [P10920/D2/T192] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:37:49,216 [P10920/D2/T197] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:38:29,101 [P10920/D2/T166] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:38:33,475 [P10920/D2/T190] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:44:55,786 [P10920/D2/T197] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:44:56,451 [P10920/D2/T190] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:45:28,816 [P10920/D2/T160] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:45:33,381 [P10920/D2/T162] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:45:55,084 [P10920/D2/T158] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:45:55,618 [P10920/D2/T192] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:46:25,393 [P10920/D2/T196] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:46:29,955 [P10920/D2/T169] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:47:10,351 [P10920/D2/T171] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:47:14,794 [P10920/D2/T166] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:47:19,546 [P10920/D2/T191] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:47:19,998 [P10920/D2/T189] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:47:49,239 [P10920/D2/T162] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:47:49,849 [P10920/D2/T164] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:49:38,064 [P10920/D2/T168] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:49:38,546 [P10920/D2/T170] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:50:07,790 [P10920/D2/T172] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:50:08,462 [P10920/D2/T171] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:50:50,800 [P10920/D2/T166] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:50:51,230 [P10920/D2/T195] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:51:23,613 [P10920/D2/T185] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:51:27,993 [P10920/D2/T190] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:52:08,938 [P10920/D2/T171] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:52:09,721 [P10920/D2/T185] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:53:41,704 [P10920/D2/T192] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:53:42,260 [P10920/D2/T172] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:53:42,693 [P10920/D2/T164] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:54:24,263 [P10920/D2/T164] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:54:24,866 [P10920/D2/T160] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:55:18,903 [P10920/D2/T196] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:55:23,311 [P10920/D2/T189] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:55:38,568 [P10920/D2/T192] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:55:39,109 [P10920/D2/T197] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:56:07,458 [P10920/D2/T188] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 16:56:08,105 [P10920/D2/T171] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:04:10,135 [P10920/D2/T187] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:04:10,753 [P10920/D2/T186] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:04:39,151 [P10920/D2/T186] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:04:39,654 [P10920/D2/T195] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:05:09,071 [P10920/D2/T190] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:05:14,171 [P10920/D2/T192] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:05:54,451 [P10920/D2/T170] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:05:58,870 [P10920/D2/T185] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:06:14,653 [P10920/D2/T197] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:06:15,109 [P10920/D2/T185] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:06:42,451 [P10920/D2/T186] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:06:43,010 [P10920/D2/T197] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:07:13,720 [P10920/D2/T160] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:07:18,576 [P10920/D2/T191] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:07:23,607 [P10920/D2/T197] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:07:24,345 [P10920/D2/T186] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:07:54,175 [P10920/D2/T197] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:07:58,743 [P10920/D2/T168] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:08:00,651 [P10920/D2/T186] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:08:00,951 [P10920/D2/T162] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:10:21,395 [P10920/D2/T164] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:10:22,038 [P10920/D2/T195] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:10:53,908 [P10920/D2/T191] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:10:58,302 [P10920/D2/T185] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:11:24,732 [P10920/D2/T160] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:11:24,970 [P10920/D2/T166] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:11:55,955 [P10920/D2/T158] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:12:00,456 [P10920/D2/T186] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:13:28,474 [P10920/D2/T162] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:13:29,037 [P10920/D2/T192] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:13:59,777 [P10920/D2/T158] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:14:04,334 [P10920/D2/T169] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:14:46,624 [P10920/D2/T170] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:14:51,847 [P10920/D2/T160] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:15:31,790 [P10920/D2/T171] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:15:36,844 [P10920/D2/T188] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:15:40,595 [P10920/D2/T172] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:15:41,125 [P10920/D2/T168] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:21:33,420 [P10920/D2/T191] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:21:37,662 [P10920/D2/T172] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:21:38,134 [P10920/D2/T192] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:22:08,841 [P10920/D2/T168] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:22:13,513 [P10920/D2/T190] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:22:16,987 [P10920/D2/T168] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:22:17,414 [P10920/D2/T172] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:22:48,177 [P10920/D2/T160] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:22:52,539 [P10920/D2/T186] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:23:12,993 [P10920/D2/T185] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:23:13,648 [P10920/D2/T158] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:23:44,307 [P10920/D2/T169] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:23:48,716 [P10920/D2/T187] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:24:13,197 [P10920/D2/T186] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:24:13,594 [P10920/D2/T171] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:24:44,398 [P10920/D2/T162] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:24:48,780 [P10920/D2/T186] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:25:28,830 [P10920/D2/T158] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:25:33,199 [P10920/D2/T192] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:26:13,085 [P10920/D2/T192] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:26:17,381 [P10920/D2/T158] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:26:57,453 [P10920/D2/T185] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:27:01,868 [P10920/D2/T186] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:27:41,939 [P10920/D2/T189] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:27:46,554 [P10920/D2/T171] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:27:54,143 [P10920/D2/T192] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:27:54,587 [P10920/D2/T164] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:28:25,855 [P10920/D2/T171] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:28:30,249 [P10920/D2/T191] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:29:09,262 [P10920/D2/T191] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:29:13,918 [P10920/D2/T170] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:29:53,309 [P10920/D2/T188] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:29:57,706 [P10920/D2/T169] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:30:16,199 [P10920/D2/T187] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:30:16,689 [P10920/D2/T164] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:30:47,810 [P10920/D2/T171] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:30:52,220 [P10920/D2/T158] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:30:53,211 [P10920/D2/T192] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:30:53,806 [P10920/D2/T190] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:31:23,360 [P10920/D2/T188] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:31:27,676 [P10920/D2/T170] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:31:30,035 [P10920/D2/T164] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:31:30,582 [P10920/D2/T192] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:32:00,744 [P10920/D2/T187] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:32:05,487 [P10920/D2/T170] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:32:45,530 [P10920/D2/T185] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:32:50,261 [P10920/D2/T187] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:33:02,758 [P10920/D2/T191] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:33:03,279 [P10920/D2/T187] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:33:33,217 [P10920/D2/T168] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:33:37,713 [P10920/D2/T189] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:34:18,767 [P10920/D2/T168] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:34:23,253 [P10920/D2/T172] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:35:02,931 [P10920/D2/T172] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:35:07,266 [P10920/D2/T168] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:35:47,526 [P10920/D2/T185] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:35:51,862 [P10920/D2/T169] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:36:09,734 [P10920/D2/T190] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:36:10,034 [P10920/D2/T189] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:36:40,082 [P10920/D2/T187] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:36:44,421 [P10920/D2/T189] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:37:24,998 [P10920/D2/T164] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:37:29,382 [P10920/D2/T185] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:38:03,535 [P10920/D2/T169] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:38:03,988 [P10920/D2/T191] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:38:33,568 [P10920/D2/T170] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:38:37,860 [P10920/D2/T168] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:39:01,934 [P10920/D2/T185] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:39:02,385 [P10920/D2/T172] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:39:21,193 [P10920/D2/T188] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:39:21,705 [P10920/D2/T190] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:39:57,005 [P10920/D2/T172] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:40:01,634 [P10920/D2/T187] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:40:02,477 [P10920/D2/T168] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:40:02,831 [P10920/D2/T187] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:40:34,084 [P10920/D2/T185] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:40:38,418 [P10920/D2/T172] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:41:02,913 [P10920/D2/T188] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:41:03,450 [P10920/D2/T190] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:41:34,517 [P10920/D2/T187] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:41:38,799 [P10920/D2/T162] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 17:46:38,365 [P10920/D2/T185] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username tanphat2k4@gmail.com from IP address ::1
+ 2018-04-04 17:46:38,366 [P10920/D2/T185] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: tanphat2k4@gmail.com logged in from IP address ::1
+ 2018-04-04 17:56:45,061 [P10920/D2/T144] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-04-04 17:56:45,064 [P10920/D2/T144] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-04-04 17:56:45,076 [P10920/D2/T144] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2018-04-04 17:56:45,077 [P10920/D2/T144] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2018-04-04 17:56:45,081 [P10920/D2/T144] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2018-04-04 17:56:45,098 [P10920/D2/T146] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-04-04 17:56:45,120 [P10920/D2/T144] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-04-04 17:56:45,120 [P10920/D2/T144] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-04-04 17:56:45,122 [P10920/D2/T145] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-04-04 17:56:45,122 [P10920/D2/T144] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-04-04 17:56:45,124 [P10920/D2/T144] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-04-04 17:56:45,124 [P10920/D2/T144] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-04-04 17:56:45,125 [P10920/D2/T144] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-04-04 17:56:45,125 [P10920/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-04-04 17:56:45,126 [P10920/D2/T145] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-04-04 17:56:45,154 [P10920/D2/T144] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-04-04 17:56:45,155 [P10920/D2/T144] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-04-04 17:56:45,156 [P10920/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-04-04 17:56:45,161 [P10920/D2/T144] INFO  Umbraco.Core.MainDom - Stopping...
+ 2018-04-04 17:56:45,170 [P10920/D2/T144] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2018-04-04 17:56:45,177 [P10920/D2/T144] INFO  Umbraco.Web.ExamineStartup - Complete (took 7ms)
+ 2018-04-04 17:56:45,180 [P10920/D2/T144] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2018-04-04 17:56:45,181 [P10920/D2/T144] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Terminating
+ 2018-04-04 17:56:45,181 [P10920/D2/T144] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Waiting for tasks to complete
+ 2018-04-04 17:56:45,182 [P10920/D2/T147] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Tasks completed, terminated
+ 2018-04-04 17:57:03,172 [P10920/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.9.2 application starting on DOMAINPC
+ 2018-04-04 17:57:03,228 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-04-04 17:57:03,252 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 23ms)
+ 2018-04-04 17:57:03,363 [P10920/D3/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-04-04 17:57:03,367 [P10920/D3/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-04-04 17:57:03,371 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 17:57:04,369 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 998ms)
+ 2018-04-04 17:57:04,370 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-04-04 17:57:04,373 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 3ms)
+ 2018-04-04 17:57:04,565 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 17:57:04,567 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-04 17:57:04,568 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-04-04 17:57:04,569 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2018-04-04 17:57:04,570 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 17:57:04,571 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-04 17:57:04,571 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-04-04 17:57:04,577 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 5ms)
+ 2018-04-04 17:57:04,630 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 17:57:04,631 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-04 17:57:04,632 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-04-04 17:57:04,633 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 1ms)
+ 2018-04-04 17:57:04,634 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 17:57:04,635 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-04 17:57:04,635 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-04-04 17:57:04,638 [P10920/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 2ms)
+ 2018-04-04 17:57:10,423 [P10920/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-04-04 17:57:11,661 [P10920/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-04-04 17:57:12,483 [P10920/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-04-04 17:57:12,844 [P10920/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-04-04 17:57:12,869 [P10920/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 9984ms)
+ 2018-04-04 17:57:15,215 [P10920/D2/T144] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 50 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2018-04-04 17:57:17,696 [P10920/D3/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:58002/umbraco
+ 2018-04-04 17:57:17,702 [P10920/D3/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:58002/umbraco (UmbracoModule request)
+ 2018-04-04 18:01:30,889 [P10920/D3/T20] INFO  umbraco.content - Load Xml from file...
+ 2018-04-04 18:01:30,896 [P10920/D3/T20] INFO  umbraco.content - Loaded Xml from file.
+ 2018-04-04 18:01:33,206 [P10920/D3/T20] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 18:01:33,207 [P10920/D3/T20] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-04 18:01:33,208 [P10920/D3/T20] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-04-04 18:01:33,213 [P10920/D3/T20] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 5ms)
+ 2018-04-04 18:02:31,036 [P10920/D3/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 18:02:31,036 [P10920/D3/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-04 18:02:31,036 [P10920/D3/T7] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-04-04 18:02:31,036 [P10920/D3/T7] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 2ms)
+ 2018-04-04 18:02:31,114 [P10920/D3/T151] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-04-03 18:02:30
+ 2018-04-04 18:06:10,717 [P10920/D3/T143] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: tanphat2k4@gmail.com, IP Address: ::1
+ 2018-04-04 18:44:10,036 [P10920/D3/T42] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username tanphat2k4@gmail.com from IP address ::1
+ 2018-04-04 18:44:10,044 [P10920/D3/T42] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: tanphat2k4@gmail.com logged in from IP address ::1
+ 2018-04-04 18:44:12,110 [P10920/D3/T37] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 18:44:12,111 [P10920/D3/T37] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-04 18:44:12,111 [P10920/D3/T37] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2018-04-04 18:44:12,115 [P10920/D3/T37] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 3ms)
+ 2018-04-04 18:44:12,285 [P10920/D3/T37] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 18:44:12,286 [P10920/D3/T37] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-04 18:44:12,286 [P10920/D3/T37] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-04-04 18:44:12,287 [P10920/D3/T37] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 1ms)
+ 2018-04-04 18:44:12,304 [P10920/D3/T37] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-04 18:44:12,305 [P10920/D3/T37] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-04 18:44:12,305 [P10920/D3/T37] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2018-04-04 18:44:12,306 [P10920/D3/T37] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2018-04-04 18:44:30,092 [P10920/D3/T42] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-04 18:44:30,415 [P10920/D3/T50] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.

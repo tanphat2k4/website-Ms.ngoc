@@ -1,0 +1,311 @@
+﻿html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+    width:1200px;
+    line-height: 1.6em;
+    color: #97b2ba;
+   background-color:#fff;
+    line-height: 1.42857143;
+    margin: 0 auto;
+    overflow: hidden;
+    
+    
+}
+input {
+    vertical-align: middle;
+    font: inherit;
+    margin: 0;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-bottom: 9px;
+    border: 1px solid #ddd;
+    padding: 0 .65em;
+    font-size: 13px;
+    line-height: normal;
+    color: #555;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    width: 364px;
+    height: 34px;
+}
+textarea {
+    text-align: start;
+    text-shadow: none;
+    text-indent: 0px;
+    text-transform: none;
+    word-spacing: normal;
+    letter-spacing: normal;
+    text-rendering: auto;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    cursor: text;
+    flex-direction: column;
+    -webkit-writing-mode: horizontal-tb !important;
+    -webkit-rtl-ordering: logical;
+    -webkit-appearance: textarea;
+    vertical-align: top;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.075);
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 0 .65em;
+    border: 1px solid #ddd;
+    display: inline-block;
+    height: auto;
+    transition: border linear .2s,box-shadow linear .2s;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    overflow: auto;
+    font-family: sans-serif;
+    resize: none;
+    margin-bottom: .85em;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-size: 18px;
+}
+/***Start Navigation*/
+
+
+ul {
+    list-style: none;
+}
+
+#navbar {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#logo {
+    margin-top: 12px;
+    font-family: "Prompt",sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: #97b2ba;
+}
+
+#abc {
+    float: right;
+    margin-top: 12px;
+    border-color: none;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    background-color: white
+}
+    .collapse .navbar-collapse #abc {
+        
+    }
+    .navigation ul li a {
+        display: block;
+        font-size: 15px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: black;
+        line-height: 37px;
+        padding: 0 20px;
+        margin: 0 1px 1px 0;
+        color: black;
+        border: none;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+    }
+
+#textDropdown:hover {
+    border-top: 5px solid black;
+    color: #97b2ba !important;
+    background-color: white !important;
+}
+
+#btnSearch {
+    border: 0.5px solid red;
+}
+
+
+/***End Navigation*/
+/**Start Design Packaget **/
+.btn:hover {
+    border: 2px solid #f06828;
+    background-color: #fff !important;
+    color: #f06828;
+}
+
+.btn {
+    margin-top: 23px 0;
+    background-color: #f06828;
+    color: #fff;
+}
+/**End Design Packaget **/
+/**Start Looking... **/
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #1ECBF4;
+}
+
+.carousel-indicators li {
+    border-color: #1ECBF4;
+}
+
+    .carousel-indicators li.active {
+        background-color: #1ECBF4;
+    }
+/**End Looking... **/
+/**Start steep process**/
+
+/**Start steep process**/
+/**Start Discover what...**/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+.btn_Possible {
+    margin-top: 23px 0;
+    background-color: #97b2ba !important;
+    color:white;
+}
+.btn_Possible:hover {
+        border: 2px solid #97b2ba;
+        background-color: #fff !important;
+        color: #97b2ba;
+    }
+}
+/**Start Discover what..s**/
+/******************AboutUS****************************/
+#path01 {
+    height: 37px;
+    background-color: red;
+    width: auto;
+}
+
+#abc {
+    float: right;
+    margin-top: 12px;
+    border: none;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    background-color: white;
+    color: black !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav > li > a {
+    color: black;
+}
+
+    .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:active, .navbar .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .active > a {
+        color: #97b2ba !important;
+        border-top: 2px solid black !important;
+        background-color: white;
+    }
+
+
+.button {
+    background-color: #97b2ba;
+    font-size: 18px;
+    color: white;
+    height: 61.97px;
+    width: 301.08px;
+    border-radius: 0.25em;
+    border: 1px solid #97b2ba;
+    text-align: center;
+    text-shadow: none !important;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 450px;
+}
+
+    .button:hover {
+        background-color: white;
+        color: #97b2ba;
+        border-color: #97b2ba;
+    }
+/**footer*/
+
+.menu-footer {
+    background-color: white;
+    border: none;
+    border-top: 2px solid #d4d4d4;
+    box-shadow: 0 -0.125em 0.25em 0 rgba(0,0,0,0.075);
+    width: 100%;
+    height: 160px;
+    padding: 10px 0;
+    font-size: 10px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+#local ul li {
+    float: left;
+    margin: 0 auto;
+}
+
+    #local ul li a {
+        padding: 0 20px;
+        margin: 0 1px 1px 0;
+    }
+
+#menu-footer-menu ul li {
+    float: left;
+    margin: 0 auto;
+}
+
+#menu-footer-menu {
+    height: 30px;
+}
+
+    #menu-footer-menu ul li a {
+        padding: 0 05px;
+        margin: 0 1px 1px 0;
+    }
+/*path*/
+#groupPath {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.55);
+    text-transform: uppercase;
+}
+
+    #groupPath ul li {
+        float: left;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin: 0;
+    }
+
+        #groupPath ul li a {
+            font-size: 10px;
+            letter-spacing: 1px;
+            line-height: 1.4;
+            text-shadow: 0 1px 0 rgba(255,255,255,0.55);
+            text-transform: uppercase;
+        }
+
+img{
+    min-width: 100%;
+    vertical-align:middle;
+    border:0;
+    max-width:100%;
+    height:auto
+}
