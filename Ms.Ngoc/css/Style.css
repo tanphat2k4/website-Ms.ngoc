@@ -37,6 +37,10 @@ input {
     box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
     width: 364px;
     height: 34px;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    -webkit-appearance: textfield;
+    -webkit-writing-mode: horizontal-tb !important;
 }
 textarea {
     text-align: start;
@@ -72,6 +76,29 @@ textarea {
     padding-top: 11px;
     padding-bottom: 11px;
     font-size: 18px;
+}
+div{
+    display:block;
+}
+.container.max{
+    max-width:1200px
+}
+.container.width{
+    width:90%;
+}
+.container{
+    margin: 0 auto;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 2px;
+    font-size: 100%;
+    line-height: 1.7;
+    cursor: default;
 }
 /***Start Navigation*/
 
@@ -317,9 +344,11 @@ img{
     text-transform: uppercase;
 }
 .share-introduce ul li{
+    margin:0 auto;
     float: left;
 }
  .share-introduce ul li a i {
+         text-align:center;
         color: #97b2ba;
         display: inline-block;
         margin: 0 .05em;
@@ -330,3 +359,80 @@ img{
         border-radius: 2px;
 
  }
+.socialnetwork-introduce {
+    height: 45px;
+    width: auto;
+}
+.socialnetwork-introduce ul li a:hover {
+    background-color: #97b2ba !important;
+}
+/*item-portfolio*/
+.searchform-overlay {
+    display: table;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2030;
+    background-color: rgba(255,255,255,0.925);
+    webkit-transition: top .3s ease;
+    transition: top .3s ease;
+}
+.searchform-overlay-inner{
+    display:table-cell;
+    vertical-align:middle;
+}
+.searchform-overlay .form-search{
+    padding-bottom:2em;
+    font-size:10px;
+}
+.center-text{
+    text-align:center;
+}
+.form-search, .widget_product_search form {
+    position: relative;
+    margin-bottom: 0;
+    line-height: 1;
+}
+form {
+    margin: 0 0 1.313em;
+    display:block;
+}
+.searchform-overlay .form-search label {
+    margin-bottom: .85em;
+    font-size: 2.1em;
+    line-height: 1.4;
+    color: #272727;
+}
+.cfc-h-tx {
+    color: #97b2ba !important;
+}
+.tt-upper {
+    text-transform: uppercase;
+}
+.searchform-overlay .form-search .search-query {
+    border: 0;
+    padding: 0;
+    height: auto;
+    font-size: 9.4em;
+    letter-spacing: -.05em;
+    line-height: 1;
+    color: #272727;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+}
+.form-search .search-query,
+.form-search input[type="search"], 
+.widget_product_search form .search-query,
+.widget_product_search form input[type="search"] {
+    width: 100%;
+    margin-bottom: 0;
+    padding-left: 30px;
+}
+input[type="text"] {
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+    display:inline-block;
+}
