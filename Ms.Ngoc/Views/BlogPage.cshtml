@@ -3,7 +3,33 @@
     Layout = "Master.cshtml";
 }
 
-@* the fun starts here *@
+@{
+    <!--lay data tu Umbraco-->
+    var currentNode = UmbracoContext.Current.PublishedContentRequest.PublishedContent;
+    var projects = currentNode.Children;
+    <!--Phan trang-->
+    const int pageSize = 6;
+    int page = 1;
+
+    if (!int.TryParse(Request["page"], out page))
+    {
+        page = 1;
+    }
+
+    int totalNodes = projects.Count();
+    int totalPages = (int)Math.Ceiling((double)totalNodes / pageSize);
+
+    if (page > totalPages)
+    {
+        page = totalPages;
+    }
+    else if (page < 1)
+    {
+        page = 1;
+    }
+
+    var listItems = projects.Skip((page - 1) * pageSize).Take(pageSize).ToList();
+}
 
 
 <body>
@@ -21,11 +47,46 @@
     </div>
     <!--End Path-->
     <!--Start Content-->
-    <div >
+    <div>
         <div class="text-center" style="margin-top:30px;margin-bottom:30px;font-size:30px;font-weight:400">
             <p>DESIGN BLOG</p>
+            <!--phan trang-->
             <div>
-                so trang
+                @if (totalPages > 1)
+                    {
+                        const int itemsPerGroup = 8;
+                        var currentGroup = (int)Math.Ceiling((double)page / itemsPerGroup);
+                        int startItem = (currentGroup - 1) * itemsPerGroup;
+                        int endItem = startItem + itemsPerGroup;
+                        if (endItem > totalPages)
+                            {
+                                endItem = totalPages;
+                             }
+                <div class="pagingWrapper">
+                        <ul class="paging">
+                            @if (page > 1)
+                             {
+                                <li class="number"><a href="?page=@(page - 1)" title="@(page - 1)"><<</a></li>
+                              }
+                            @for (int p = startItem; p < endItem; p++)
+                             {
+                                string selected = (p + 1 == page) ? "selected" : String.Empty;
+                                if (selected.Trim().Length != 0)
+                              {
+                            <li class="number @selected"><a href="javascript:void(0);" title="@(p + 1)">@(p + 1)</a></li>
+                                 }
+                            else
+                            {
+                                <li class="number @selected"><a href="?page=@(p + 1)" title="@(p + 1)">@(p + 1)</a></li>
+                            }
+                            }
+                            @if (page < totalPages)
+                            {
+                                <li class="number"><a href="?page=@(page + 1)" title="@(page + 1)">>></a></li>
+                            }
+                        </ul>
+            </div>
+            }
             </div>
         </div>
         <div class="col-sm-8 col-xs-12">
@@ -44,80 +105,77 @@
             </div>
         </div>
         <!--right-->
-        <div style=" float:right; width:331px">
-            <aside class="sidebar right" role="complementary">
-                <div id="categories-2" class="widget widget_categories">
-                    <p><h4 class="h-widget"><i class="fa fa-bookmark"></i> CATEGORIES</h4></p>
-                    <ul>
-                        <li><a>Checklists</a></li>
-                        <li><a>Design Hotels</a></li>
-                        <li><a>Eclectic House of the Month</a></li>
-                        <li><a>Fashion</a></li>
-                        <li><a>Guides</a></li>
-                        <li><a>Home Improvement Advice</a></li>
-                        <li><a>Inspiration</a></li>
-                        <li><a>Interior Designs</a></li>
-                        <li><a>Sundry</a></li>
 
-                    </ul>
-                </div>
-                <div id="recent-posts" class="widget widget_recent_entries">
-                    <p><h4 class="h-widget"><i class="fa fa-book"></i> RECENT POSTS</h4></p>
-                    <ul>
-                        <li><a href="">INSPIRATION FROM TRAVEL. MOLDOVA, CHISINAU</a></li>
-                        <li><a href="">WHY KIDS ROOMS ARE NOT EASY TO DECORATE</a></li>
-                        <li><a href="">GET CLARITY ON WHAT YOUR IDEAL HOME SHOULD LOOK LIKE</a></li>
-                        <li><a href="">GET PIECE OF MIND BEFORE STARTING YOUR HOME REFURBISHMENT PROJECT</a></li>
-                        <li><a href="">DETERMINING GOALS BEFORE BEGINNING YOUR HOME REFURBISHMENT</a></li>
-                        <li><a href="">FOUR MISTAKES BUSY FAMILIES MAKE WHEN PREPARING FOR THEIR HOME IMPROVEMENT</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <p><h4><i class="fa fa-tags"></i>TAGS</h4></p>
-                </div>
-                <div class="tag-cloud">
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="antique (1 item)"><i class="fa fa-tag"></i>antique</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="art (1 item)"><i class="fa fa-tag"></i>art</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="artist (1 item)"><i class="fa fa-tag"></i>artist</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="Barceló Torre de (1 item)"><i class="fa fa-tag"></i>Barceló Torre de</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="collection (1 item)"><i class="fa fa-tag"></i>collection</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="costumes (1 item)"><i class="fa fa-tag"></i>costumes</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="Decor advice (1 item)"><i class="fa fa-tag"></i>Decor advice</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="design (1 item)"><i class="fa fa-tag"></i>design</a>
-                    <a href="" style="font-size:22px" class="tag-cloud" aria-label="eclectic (2 items)"><i class="fa fa-tag"></i>eclectic</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="eclectic house of the month (1 item)"><i class="fa fa-tag"></i>eclectic house of the month</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="fabrics (1 item)"><i class="fa fa-tag"></i>fabrics</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="fashion (1 item)"><i class="fa fa-tag"></i>fashion</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="gucci (1 item)"><i class="fa fa-tag"></i>gucci</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="home improvement advice (1 item)"><i class="fa fa-tag"></i>home improvement advice</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="hotel (1 item)"><i class="fa fa-tag"></i>hotel</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="house (1 item)"><i class="fa fa-tag"></i>house</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="interior design (1 item)"><i class="fa fa-tag"></i>interior design</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="interior design for kids (1 item)"><i class="fa fa-tag"></i>interior design for kids</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="Jaime Hayon (1 item)"><i class="fa fa-tag"></i>Jaime Hayon</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="kids rooms decoration (1 item)"><i class="fa fa-tag"></i>kids rooms decoration</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="madrid (1 item)"><i class="fa fa-tag"></i>madrid</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="nick cave (1 item)"><i class="fa fa-tag"></i>nick cave</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="pre-fall 2017 (1 item)"><i class="fa fa-tag"></i>pre-fall 2017</a>
-                    <a href="" style="font-size:8px" class="tag-cloud" aria-label="soundsuits (1 item)"><i class="fa fa-tag"></i>soundsuits</a>
+        <aside class="sidebar right" role="complementary">
+            <div id="categories-2" class="widget widget_categories">
+                <p><h4 class="h-widget"><i class="fa fa-bookmark"></i> CATEGORIES</h4></p>
+                <ul>
+                    <li><a>Checklists</a></li>
+                    <li><a>Design Hotels</a></li>
+                    <li><a>Eclectic House of the Month</a></li>
+                    <li><a>Fashion</a></li>
+                    <li><a>Guides</a></li>
+                    <li><a>Home Improvement Advice</a></li>
+                    <li><a>Inspiration</a></li>
+                    <li><a>Interior Designs</a></li>
+                    <li><a>Sundry</a></li>
+                </ul>
+            </div>
+            <div id="recent-posts" class="widget widget_recent_entries">
+                <p><h4 class="h-widget"><i class="fa fa-book"></i> RECENT POSTS</h4></p>
+                <ul>
+                    <li><a href="">INSPIRATION FROM TRAVEL. MOLDOVA, CHISINAU</a></li>
+                    <li><a href="">WHY KIDS ROOMS ARE NOT EASY TO DECORATE</a></li>
+                    <li><a href="">GET CLARITY ON WHAT YOUR IDEAL HOME SHOULD LOOK LIKE</a></li>
+                    <li><a href="">GET PIECE OF MIND BEFORE STARTING YOUR HOME REFURBISHMENT PROJECT</a></li>
+                    <li><a href="">DETERMINING GOALS BEFORE BEGINNING YOUR HOME REFURBISHMENT</a></li>
+                    <li><a href="">FOUR MISTAKES BUSY FAMILIES MAKE WHEN PREPARING FOR THEIR HOME IMPROVEMENT</a></li>
+                </ul>
+            </div>
+            <div>
+                <p><h4><i class="fa fa-tags"></i>TAGS</h4></p>
+            </div>
+            <div class="tag-cloud">
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="antique (1 item)"><i class="fa fa-tag"></i>antique</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="art (1 item)"><i class="fa fa-tag"></i>art</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="artist (1 item)"><i class="fa fa-tag"></i>artist</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="Barceló Torre de (1 item)"><i class="fa fa-tag"></i>Barceló Torre de</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="collection (1 item)"><i class="fa fa-tag"></i>collection</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="costumes (1 item)"><i class="fa fa-tag"></i>costumes</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="Decor advice (1 item)"><i class="fa fa-tag"></i>Decor advice</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="design (1 item)"><i class="fa fa-tag"></i>design</a>
+                <a href="" style="font-size:22px" class="tag-cloud" aria-label="eclectic (2 items)"><i class="fa fa-tag"></i>eclectic</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="eclectic house of the month (1 item)"><i class="fa fa-tag"></i>eclectic house of the month</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="fabrics (1 item)"><i class="fa fa-tag"></i>fabrics</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="fashion (1 item)"><i class="fa fa-tag"></i>fashion</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="gucci (1 item)"><i class="fa fa-tag"></i>gucci</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="home improvement advice (1 item)"><i class="fa fa-tag"></i>home improvement advice</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="hotel (1 item)"><i class="fa fa-tag"></i>hotel</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="house (1 item)"><i class="fa fa-tag"></i>house</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="interior design (1 item)"><i class="fa fa-tag"></i>interior design</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="interior design for kids (1 item)"><i class="fa fa-tag"></i>interior design for kids</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="Jaime Hayon (1 item)"><i class="fa fa-tag"></i>Jaime Hayon</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="kids rooms decoration (1 item)"><i class="fa fa-tag"></i>kids rooms decoration</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="madrid (1 item)"><i class="fa fa-tag"></i>madrid</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="nick cave (1 item)"><i class="fa fa-tag"></i>nick cave</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="pre-fall 2017 (1 item)"><i class="fa fa-tag"></i>pre-fall 2017</a>
+                <a href="" style="font-size:8px" class="tag-cloud" aria-label="soundsuits (1 item)"><i class="fa fa-tag"></i>soundsuits</a>
 
+            </div>
+            <div id="text-2" class="widget widget_text">
+                <div class="textwidget">
+                    <a href="">
+                        <img src="~/images/portfolio.jpg" alt="View some of our previous successes" />
+                    </a>
                 </div>
-                <div id="text-2" class="widget widget_text">
-                    <div class="textwidget">
-                        <a href="">
-                            <img src="~/images/portfolio.jpg" alt="View some of our previous successes" />
-                        </a>
-                    </div>
-                </div>
-                <div>
-                    <p><h4 class="h-widget"><i class="fa fa-chevron-right"></i> ADSENSE</h4></p>
-                </div>
-            </aside>
-            
-            
-           
-        </div>
+            </div>
+            <div>
+                <p><h4 class="h-widget"><i class="fa fa-chevron-right"></i> ADSENSE</h4></p>
+            </div>
+        </aside>
+
     </div>
+
     <!--The End Content-->
 </body>
 
