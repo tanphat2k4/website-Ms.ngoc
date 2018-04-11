@@ -532,6 +532,7 @@
     <Content Include="Views\ProcessPage.cshtml" />
     <Content Include="Views\Search.cshtml" />
     <Content Include="Views\Portfolio_item.cshtml" />
+    <Content Include="Views\Blog_item.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -50,58 +50,76 @@
     <div>
         <div class="text-center" style="margin-top:30px;margin-bottom:30px;font-size:30px;font-weight:400">
             <p>DESIGN BLOG</p>
-            <!--phan trang-->
+            <!--Start paging-->
             <div>
                 @if (totalPages > 1)
-                    {
+                 {
                         const int itemsPerGroup = 8;
                         var currentGroup = (int)Math.Ceiling((double)page / itemsPerGroup);
                         int startItem = (currentGroup - 1) * itemsPerGroup;
                         int endItem = startItem + itemsPerGroup;
                         if (endItem > totalPages)
-                            {
-                                endItem = totalPages;
-                             }
+                {
+                    endItem = totalPages;
+                }
                 <div class="pagingWrapper">
-                        <ul class="paging">
-                            @if (page > 1)
-                             {
-                                <li class="number"><a href="?page=@(page - 1)" title="@(page - 1)"><<</a></li>
-                              }
-                            @for (int p = startItem; p < endItem; p++)
+                    <ul class="paging">
+                        @if (page > 1)
+                        {
+                            <li class="number"><a href="?page=@(page - 1)" title="@(page - 1)"><<</a></li>
+                         }
+                        @for (int p = startItem; p < endItem; p++)
                              {
                                 string selected = (p + 1 == page) ? "selected" : String.Empty;
                                 if (selected.Trim().Length != 0)
-                              {
-                            <li class="number @selected"><a href="javascript:void(0);" title="@(p + 1)">@(p + 1)</a></li>
+                                {
+                                    <li class="number @selected"><a href="javascript:void(0);" title="@(p + 1)">@(p + 1)</a></li>
                                  }
-                            else
-                            {
-                                <li class="number @selected"><a href="?page=@(p + 1)" title="@(p + 1)">@(p + 1)</a></li>
-                            }
-                            }
-                            @if (page < totalPages)
-                            {
-                                <li class="number"><a href="?page=@(page + 1)" title="@(page + 1)">>></a></li>
-                            }
-                        </ul>
-            </div>
-            }
+                                    else
+                                {
+                                    <li class="number @selected"><a href="?page=@(p + 1)" title="@(p + 1)">@(p + 1)</a></li>
+                                }
+                        }
+                        @if (page < totalPages)
+                         {
+                        <li class="number"><a href="?page=@(page + 1)" title="@(page + 1)">>></a></li>
+                        }
+                    </ul>
+                </div>
+        }
             </div>
         </div>
+        <!--End paging-->
         <div class="col-sm-8 col-xs-12">
             <div>
-                <div style="width:67.536945%; margin-left:5px;">
-                    <div style="box-shadow: 0 0.15em 0.35em 0 rgba(0,0,0,0.135);margin-bottom:60px;width:810px;height:auto">
-                        <div><a href="#"><img src="~/images/Portfolio_01.jpg" style="width:810px;height:780px" /></a></div>
-                        <div style="margin:0;padding:0; text-align:center;width:810px;height:auto;text-transform:uppercase;font-size:15px;font-style:normal;padding: 29px 6.5% 35px;">
-                            <h2><a href="#">WHY KIDS ROOMS ARE NOT EASY TO DECORATE</a></h2>
-                            <span>I bet you have kids and are planning to refurbish your home? Not difficult to guess because you are looking for advice on this page. Maybe you are inspired by …</span>
-                            <br />
-                            <a href="#" style="color:black;font-weight:bold;font-size:10px;font-family:sans-serif;width:810px;height:auto">Read More</a>
+                <ul>
+                    @foreach (var item in projects)
+                {
+                    var thumbnail = Umbraco.TypedMedia(item.GetPropertyValue<int>("thumbnail"));
+                    var url = String.Empty;
+                    if (thumbnail != null)
+                    {
+                        url = thumbnail.Url;
+                    }
+                    <li>
+                        <div style="width:67.536945%; margin-left:5px;">
+                            <div style="box-shadow: 0 0.15em 0.35em 0 rgba(0,0,0,0.135);margin-bottom:60px;width:810px;height:auto">
+                                <div><a href="#"><img src="@url" style="width:810px;height:780px" /></a></div>
+                                <div style="margin:0;padding:0; text-align:center;width:810px;height:auto;text-transform:uppercase;font-size:15px;font-style:normal;padding: 29px 6.5% 35px;">
+                                    <h2><a href="@item.Url">@item.Name</a></h2>
+                                    <span>@(item.GetPropertyValue<string>("subjectMatter"))</span>
+                                    <br />
+                                    <a href="@item.Url" style="color:black;font-weight:bold;font-size:10px;font-family:sans-serif;width:810px;height:auto">Read More</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
+
+                    </li>
+
+            }
+                </ul>
+
+
             </div>
         </div>
         <!--right-->
