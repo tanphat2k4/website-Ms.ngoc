@@ -28,32 +28,39 @@
         </div>
         <div class="col-sm-6 col-xs-12" style="margin-top:30px">
             <p style="font-size:18px">SEND US YOUR MESSAGE USING THE FORM BELOW</p>
-            <p id="name">
-                <label for="author">
-                    YOUR NAME(required)
-                </label>
-                <br />
-                <input style="width:364px;height: 34px;" id="author" name="author" type="text" value size="30" maxlength="245" aria-required="true" required />
-            </p>
-            <p id="email">
-                <label for="author">
-                    YOUR EMAIL(required)
-                </label>
-                <br />
-                <input style="width:364px;height: 34px;" id="author" name="author" type="text" value size="30" maxlength="245" aria-required="true" required />
-            </p>
-            <p id="subject">
-                <label for="author">
-                    Subject
-                </label>
-                <br />
-                <input style="width:364px;height: 34px;" id="author" name="author" type="text" value size="30" maxlength="245" aria-required="true" required />
-            </p>
-            <p class="you_message">
-                <label form="message" style="padding-bottom:10px">Your Message</label>
-                <br />
-                <textarea style="height:auto;width: 364px" id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required></textarea>
-            </p>
+            @using (Html.BeginForm())
+             {
+                <p id="name">
+                    <label for="author">
+                        YOUR NAME(required)
+                    </label>
+                    <br />
+                    <input style="width:364px;height: 34px;" id="author" name="name" type="text" value size="30" maxlength="245" aria-required="true" required />
+                </p>
+                <p id="email">
+                    <label for="author">
+                        YOUR EMAIL(required)
+                    </label>
+                    <br />
+                    <input style="width:364px;height: 34px;" id="author" name="email" type="text" value size="30" maxlength="245" aria-required="true" required />
+                </p>
+                <p id="subject">
+                    <label for="author">
+                        Subject
+                    </label>
+                    <br />
+                    <input style="width:364px;height: 34px;" id="author" name="subject" type="text" value size="30" maxlength="245" aria-required="true" required />
+                </p>
+                <p class="you_message">
+                    <label form="message" style="padding-bottom:10px">Your Message</label>
+                    <br />
+                    <textarea style="height:auto;width: 364px" id="comment" name="message" cols="45" rows="8" maxlength="65525" aria-required="true" required></textarea>
+                </p>
+                <p>
+                    <input type="button" class="button" value="Send" style="font-size:26px" />
+                </p>
+             }
+
         </div>
         <div class="col-sm-6 col-xs-12"style="margin-top:30px;font-size:18px">
             <div>

@@ -324,6 +324,7 @@ p {
         background-color: white;
         color: #97b2ba;
         border-color: #97b2ba;
+        cursor:pointer;
     }
 /**footer*/
 
@@ -802,7 +803,6 @@ input[type="submit"] {
     font-size: 19px;
     display: inline-block;
     position: relative;
-    border: 1px solid #ac1100;
     padding: 0.563em 1.125em 0.813em;
     cursor: pointer;
     font-size: 16px;
@@ -811,7 +811,6 @@ input[type="submit"] {
     text-align: center;
     vertical-align: middle;
     color: #fff;
-    background-color: #ff2a13;
     -webkit-transition: all 0.15s linear;
     transition: all 0.15s linear;
 }

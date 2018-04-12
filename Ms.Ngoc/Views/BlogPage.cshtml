@@ -90,11 +90,12 @@
             </div>
         </div>
         <!--End paging-->
+        <!--left-->
         <div class="col-sm-8 col-xs-12">
             <div>
                 <ul>
-                    @foreach (var item in projects)
-                {
+                    @foreach (var item in listItems)
+                     {
                     var thumbnail = Umbraco.TypedMedia(item.GetPropertyValue<int>("thumbnail"));
                     var url = String.Empty;
                     if (thumbnail != null)
@@ -104,7 +105,7 @@
                     <li>
                         <div style="width:67.536945%; margin-left:5px;">
                             <div style="box-shadow: 0 0.15em 0.35em 0 rgba(0,0,0,0.135);margin-bottom:60px;width:810px;height:auto">
-                                <div><a href="#"><img src="@url" style="width:810px;height:780px" /></a></div>
+                                <div><a href="@item.Url"><img src="@url" style="width:810px;height:780px" /></a></div>
                                 <div style="margin:0;padding:0; text-align:center;width:810px;height:auto;text-transform:uppercase;font-size:15px;font-style:normal;padding: 29px 6.5% 35px;">
                                     <h2><a href="@item.Url">@item.Name</a></h2>
                                     <span>@(item.GetPropertyValue<string>("subjectMatter"))</span>
@@ -116,7 +117,7 @@
 
                     </li>
 
-            }
+                       }
                 </ul>
 
 

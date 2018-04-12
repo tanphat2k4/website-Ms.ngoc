@@ -1,11 +1,16 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
-	Layout = "Master.cshtml";
+    Layout = "Master.cshtml";
 }
 
-@* the fun starts here *@
+@{
+    <!--lay data tu Umbraco-->
+    var currentNode = UmbracoContext.Current.PublishedContentRequest.PublishedContent;
+    var thumbnail = currentNode.GetPropertyValue<string>("thumbnail").Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+}
 <body>
-    <!--Start Path-->
+
+    <!--start path-->
     <div class="path" style="height: 45px;width:100%;background-color:rgba(0,0,0,0.05)">
         <div class="container-fluid" id="path" style="height:45px;width: 1200px;margin-top:80px">
             <div id="groupPath">
@@ -13,6 +18,8 @@
                     <li><a href="#"><div style="color:black"><i class="fa fa-home"></i></div></a></li>
                     <li><a href="#"><div><i class="fa fa-angle-right"></i></div></a></li>
                     <li><a href="#"><p>BLOG</p></a></li>
+                    <li><a href="#"><div><i class="fa fa-angle-right"></i></div></a></li>
+                    <li><a href="#"><p>@currentNode.Name</p></a></li>
                 </ul>
             </div>
         </div>
@@ -23,19 +30,29 @@
     <div class="main left" role="main">
         <article class="hentry has-post-thumbnail">
             <div class="entry-featured">
-                <div class="entry-thumb">
-                    <img style="width:881px;height:587px" src="" alt="empty" />
-                </div>
+                @foreach (var id in thumbnail)
+                 {
+                    var image = Umbraco.TypedMedia(id);
+                    var url = String.Empty;
+                    if (image != null)
+                        {
+                        url = image.Url;
+                        }
+                    <div class="entry-thumb">
+                        <img style="width:881px;height:587px" src="@url" alt="empty" />
+                    </div>
+                 }
+
             </div>
             <div class="entry-wrap">
                 <header class="entry-header">
-                    <h1 class="entry-title">HOW TO ENSURE YOUR INTERIOR PROJECT IS A SUCCESS</h1>
+                    <h1 class="entry-title">@currentNode.Name</h1>
                 </header>
                 <div class="entry-content content">
                     <div class="cs-conten">
                         <div class="x-selection" style="margin: 0px;padding: 45px 0px;background-color: transparent;">
                             <div class="container max width" style="margin: 0px auto;padding: 0px;">
-                                chuyern noi dung
+                                @Html.Raw((currentNode.GetPropertyValue<string>("description")))
                             </div>
                         </div>
                     </div>
@@ -82,6 +99,7 @@
             </div>
         </div>
     </div>
+ 
     <!--right-->
     <aside class="sidebar right" role="complementary">
         <div id="categories-2" class="widget widget_categories">
