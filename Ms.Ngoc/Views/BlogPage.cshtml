@@ -54,7 +54,7 @@
             <div>
                 @if (totalPages > 1)
                  {
-                        const int itemsPerGroup = 8;
+                        const int itemsPerGroup = 6;
                         var currentGroup = (int)Math.Ceiling((double)page / itemsPerGroup);
                         int startItem = (currentGroup - 1) * itemsPerGroup;
                         int endItem = startItem + itemsPerGroup;

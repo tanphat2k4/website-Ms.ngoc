@@ -20,7 +20,7 @@ using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
 [assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "57c6c889213927a3")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.4")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.8")]
 
 namespace Umbraco.Web.PublishedContentModels
 {

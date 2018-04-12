@@ -40,8 +40,26 @@ input {
     cursor: text;
     -webkit-appearance: textfield;
     -webkit-writing-mode: horizontal-tb !important;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
 }
 
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
 textarea {
     text-align: start;
     text-shadow: none;
@@ -113,6 +131,40 @@ a {
 ul {
     list-style: none;
 }
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a, blockquote {
+    color: #97b2ba ;
+    font-family: "Montserrat",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+form {
+    margin: 0 0 1.313em;
+    display: block;
+}
+p {
+    margin: 0 0 10px;
+    margin: 0 0 1.313em;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
 /***Start Navigation*/
 #navbar {
     width: 1200px;
@@ -414,10 +466,7 @@ img {
     line-height: 1;
 }
 
-form {
-    margin: 0 0 1.313em;
-    display: block;
-}
+
 
 .searchform-overlay .form-search label {
     margin-bottom: .85em;
@@ -460,6 +509,16 @@ input[type="text"] {
     -webkit-transition: border linear .2s,box-shadow linear .2s;
     transition: border linear .2s,box-shadow linear .2s;
     display: inline-block;
+    height: 2.65em;
+    margin-bottom: 9px;
+    border: 1px solid #ddd;
+    padding: 0 0.65em;
+    font-size: 13px;
+    line-height: normal;
+    color: #555;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
 }
 /**blog*/
 .sidebar {
@@ -620,3 +679,145 @@ a:-webkit-any {
             color: #515954;
         }
 /***End Paging***/
+/***Start Blog item***/
+.main {
+    width: 67.536945%;
+    position:relative
+}
+.left{
+    float:left;
+}
+.hentry:first-child{
+    margin-top:0;
+}
+.has-post-thumbnail .entry-featured {
+    border-bottom: 1px solid #ddd;
+}
+.entry-featured {
+    position: relative;
+    box-shadow: 4px 2px 4px -4px rgba(0,0,0,0.135), -4px 2px 4px -4px rgba(0,0,0,0.135);
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.entry-thumb {
+    display: block;
+    position: relative;
+    background-color: #000;
+}
+.has-post-thumbnail .entry-wrap {
+    border-radius: 0 0 4px 4px;
+}
+.entry-wrap {
+    display: block;
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0.15em 0.35em 0 rgba(0,0,0,0.135);
+}
+.entry-header, .entry-content {
+    font-size: 15px;
+}
+.blog article .entry-title, .archive.category article .entry-title, .archive.tag article .entry-title, .search-results article .entry-title, .single-post .entry-title {
+    text-transform: none;
+}
+.entry-title {
+    margin: 0;
+    font-size: 250%;
+    line-height: 1.05;
+}
+.entry-content {
+    margin-top: 1.25em;
+}
+/**Coment*/
+.comment-area {
+    margin: 4em 0 0;
+}
+#reply-title {
+    margin: 1em 0 0;
+    font-size: 285.7%;
+    line-height: 1.05;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+#commentform{
+    margin-bottom:0;
+}
+.comment-notes {
+    margin-bottom: 1em;
+    font-size: 114.2%;
+}
+#respond .required {
+    font-weight: 300;
+    color: #ff2a13;
+}
+.comment-form-author, .comment-form-email, .comment-form-url, .comment-form-rating, .comment-form-comment {
+    margin: 0;
+}
+    .comment-form-author label, .comment-form-email label, .comment-form-url label, .comment-form-rating label, .comment-form-comment label, .widget_calendar #wp-calendar th, .p-landmark-sub strong, .widget_tag_cloud .tagcloud a:hover, .widget_tag_cloud .tagcloud a:active, .entry-footer a:hover, .entry-footer a:active, .x-breadcrumbs .current, .x-comment-author, .x-comment-author a {
+        color: #97b2ba
+    }
+    .x-comment-author, .x-comment-time, .comment-form-author label, .comment-form-email label, .comment-form-url label, .comment-form-rating label, .comment-form-comment label, .widget_calendar #wp-calendar caption, .widget.widget_rss li .rsswidget {
+        font-family: Montserrat;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .comment-form-author label, .comment-form-email label, .comment-form-url label, .comment-form-rating label, .comment-form-comment label {
+        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 171.4%;
+        color: #272727;
+    }
+
+.comment-form-author, .comment-form-email, .comment-form-url, .comment-form-rating, .comment-form-comment {
+    margin:0;
+}
+.comment-form-author label .required, .comment-form-email label .required, .comment-form-url label .required, .comment-form-rating label .required, .comment-form-comment label .required {
+        position: relative;
+        right: 0.175em;
+    }
+    .comment-form-author input, .comment-form-email input, .comment-form-url input {
+        width: 100%;
+        margin-bottom: 0.85em;
+        font-size: 18px;
+    }
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    width: auto;
+    cursor: pointer;
+    -webkit-appearance: button;
+    color: #fff;
+    border-color: #97b2ba;
+    background-color: #97b2ba;
+    text-shadow: 0 0.075em 0.075em rgba(0,0,0,.5);
+    border-radius: .25em;
+    padding: .579em 1.105em .842em;
+    font-size: 19px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #ac1100;
+    padding: 0.563em 1.125em 0.813em;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: inherit;
+    line-height: 1.3;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    background-color: #ff2a13;
+    -webkit-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+.submit {
+    text-shadow: none !important;
+    text-transform: uppercase;
+}
+
+/***End Blog item***/
