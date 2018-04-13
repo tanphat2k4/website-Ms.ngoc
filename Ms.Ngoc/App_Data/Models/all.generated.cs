@@ -8,8 +8,8 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "d00cb56b3caabbe7")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "8f24529d7e5b8988")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
 
 
 // FILE: models.generated.cs
@@ -40,7 +40,7 @@ using  Umbraco.ModelsBuilder.Umbraco;
 
 namespace Umbraco.Web.PublishedContentModels
 {
-	/// <summary>HOME</summary>
+	/// <summary>Home</summary>
 	[PublishedContentModel("hOME")]
 	public partial class HOme : PublishedContentModel
 	{
@@ -66,7 +66,7 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 	}
 
-	/// <summary>ABOUTUS</summary>
+	/// <summary>AboutUS</summary>
 	[PublishedContentModel("aBOUTUS")]
 	public partial class ABoutus : PublishedContentModel
 	{
@@ -92,7 +92,7 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 	}
 
-	/// <summary>PROCESS</summary>
+	/// <summary>Process</summary>
 	[PublishedContentModel("pROCESS")]
 	public partial class PRocess : PublishedContentModel
 	{
@@ -118,7 +118,7 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 	}
 
-	/// <summary>PACKAGES</summary>
+	/// <summary>Packages</summary>
 	[PublishedContentModel("pACKAGES")]
 	public partial class PAckages : PublishedContentModel
 	{
@@ -196,7 +196,7 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 	}
 
-	/// <summary>CONTACTS</summary>
+	/// <summary>Contacts</summary>
 	[PublishedContentModel("cONTACTS")]
 	public partial class COntacts : PublishedContentModel
 	{
@@ -297,6 +297,15 @@ namespace Umbraco.Web.PublishedContentModels
 		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<BlogItem, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Blog hot
+		///</summary>
+		[ImplementPropertyType("blogHot")]
+		public bool BlogHot
+		{
+			get { return this.GetPropertyValue<bool>("blogHot"); }
 		}
 
 		///<summary>

@@ -19,15 +19,15 @@ namespace Ms.Ngoc.Controllers
                 var Email = Request["email"];
                 var subject = Request["subject"];
                 var message = Request["message"];
-
+                //Creat Service
                 var contentServices = Services.ContentService;
                 var person = contentServices.CreateContent(fullName, model.Content.Id, "potential_Customer");
-
+                //Creat Person
                 person.SetValue("name_customer",fullName);
                 person.SetValue("email",Email);
                 person.SetValue("subject",subject);
                 person.SetValue("message", message);
-
+                //refesh page
                 contentServices.SaveAndPublishWithStatus(person);
             }
             return CurrentTemplate(model);

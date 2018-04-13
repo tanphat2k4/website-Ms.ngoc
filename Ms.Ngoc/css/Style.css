@@ -394,12 +394,34 @@ p {
         }
 
 img {
-    min-width: 100%;
     vertical-align: middle;
     border: 0;
     max-width: 100%;
     height: auto
 }
+/*Home*/
+#Bloghot_wrapper {
+    margin: 20px auto;
+    position: relative;
+}
+#Bloghot {
+    position: relative;
+    overflow: hidden;
+    width: 1008px;
+}
+#Bloghot ul {
+        width: 20000em;
+        position: relative;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+#Bloghot li {
+        float: left;
+        margin-right: 20px;
+        border: 1px solid #e9e5e5;
+    }
 /*item-portfolio*/
 .share-introduce p {
     text-align: center;
@@ -434,47 +456,6 @@ img {
         background-color: #97b2ba !important;
     }
 /*item-portfolio*/
-.searchform-overlay {
-    display: table;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2030;
-    background-color: rgba(255,255,255,0.925);
-    webkit-transition: top .3s ease;
-    transition: top .3s ease;
-}
-/**Search pages*/
-.searchform-overlay-inner {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.searchform-overlay .form-search {
-    padding-bottom: 2em;
-    font-size: 10px;
-}
-
-.center-text {
-    text-align: center;
-}
-
-.form-search, .widget_product_search form {
-    position: relative;
-    margin-bottom: 0;
-    line-height: 1;
-}
-
-
-
-.searchform-overlay .form-search label {
-    margin-bottom: .85em;
-    font-size: 2.1em;
-    line-height: 1.4;
-    color: #272727;
-}
 
 .cfc-h-tx {
     color: #97b2ba !important;
@@ -482,28 +463,6 @@ img {
 
 .tt-upper {
     text-transform: uppercase;
-}
-
-.searchform-overlay .form-search .search-query {
-    border: 0;
-    padding: 0;
-    height: auto;
-    font-size: 9.4em;
-    letter-spacing: -.05em;
-    line-height: 1;
-    color: #272727;
-    background-color: transparent;
-    border-radius: 0;
-    box-shadow: none;
-}
-
-.form-search .search-query,
-.form-search input[type="search"],
-.widget_product_search form .search-query,
-.widget_product_search form input[type="search"] {
-    width: 100%;
-    margin-bottom: 0;
-    padding-left: 30px;
 }
 
 input[type="text"] {

@@ -253,6 +253,8 @@
     <Content Include="config\imageprocessor\processing.config" />
     <Content Include="config\imageprocessor\cache.config" />
     <Content Include="App_Plugins\ModelsBuilder\package.manifest" />
+    <Content Include="css\Slider\jquery.galleryview-3.0-dev.css" />
+    <Content Include="css\Slider\js-image-slider.css" />
     <Content Include="css\Slider\slider.css" />
     <Content Include="css\Style.css" />
     <Content Include="images\001.jpg" />
@@ -270,6 +272,12 @@
     <Content Include="images\bann2.jpg" />
     <Content Include="images\bann3.jpg" />
     <Content Include="images\cinqueterre.jpg" />
+    <Content Include="images\iconACB.jpg" />
+    <Content Include="images\iconDongA.jpg" />
+    <Content Include="images\iconExim.jpg" />
+    <Content Include="images\iconHD.jpg" />
+    <Content Include="images\iconMB.jpg" />
+    <Content Include="images\iconVietcombank.jpg" />
     <Content Include="images\img_chania.jpg" />
     <Content Include="images\img_chania2.jpg" />
     <Content Include="images\img_flower.jpg" />
@@ -287,7 +295,13 @@
     <Content Include="images\Portfolio_02.jpg" />
     <Content Include="images\sanfran.jpg" />
     <Content Include="js\Slider\jquery-1.9.1.min.js" />
+    <Content Include="js\Slider\jquery-2.1.1.min.js" />
+    <Content Include="js\Slider\jquery.galleryview-3.0-dev.js" />
+    <Content Include="js\Slider\jquery.jcarousel.min.js" />
+    <Content Include="js\Slider\jquery.timers-1.2.js" />
+    <Content Include="js\Slider\js-image-slider.js" />
     <Content Include="js\Slider\jssor.slider.min.js" />
+    <Content Include="js\Slider\site.js" />
     <Content Include="js\Slider\slider.js" />
     <Content Include="Media\Web.config" />
     <Content Include="config\umbracoSettings.config" />
@@ -524,7 +538,6 @@
     <Content Include="Umbraco\Xslt\Web.config" />
     <Content Include="Views\AboutUSpage.cshtml" />
     <Content Include="Views\BlogPage.cshtml" />
-    <Content Include="Views\ContactsPage.cshtml" />
     <Content Include="Views\Homepage.cshtml" />
     <Content Include="Views\Master.cshtml" />
     <Content Include="Views\PackagesPage.cshtml" />
@@ -533,6 +546,8 @@
     <Content Include="Views\Search.cshtml" />
     <Content Include="Views\Portfolio_item.cshtml" />
     <Content Include="Views\Blog_item.cshtml" />
+    <Content Include="Views\cONTACTS\ContactsPage.cshtml" />
+    <Content Include="Views\cONTACTS\Master.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -2097,7 +2112,6 @@
     <Folder Include="App_Data\TEMP\Install\" />
     <Folder Include="fonts\" />
     <Folder Include="obj\Debug\TempPE\" />
-    <Folder Include="Views\cONTACTS\" />
     <Folder Include="Views\MacroPartials\" />
   </ItemGroup>
   <PropertyGroup>

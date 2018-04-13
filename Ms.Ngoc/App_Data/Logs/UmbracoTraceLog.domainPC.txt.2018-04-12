@@ -1,0 +1,927 @@
+﻿ 2018-04-12 08:29:20,630 [P8156/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.9.2 application starting on DOMAINPC
+ 2018-04-12 08:29:20,670 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-04-12 08:29:20,698 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 27ms)
+ 2018-04-12 08:29:20,812 [P8156/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-04-12 08:29:20,815 [P8156/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-04-12 08:29:20,818 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:29:21,306 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 488ms)
+ 2018-04-12 08:29:21,306 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-04-12 08:29:21,316 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 10ms)
+ 2018-04-12 08:29:21,349 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:29:21,350 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-12 08:29:21,350 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-04-12 08:29:21,362 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 11ms)
+ 2018-04-12 08:29:21,363 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:29:21,363 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:29:21,364 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-04-12 08:29:21,375 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 11ms)
+ 2018-04-12 08:29:21,401 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:29:21,402 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:29:21,402 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-04-12 08:29:21,414 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 11ms)
+ 2018-04-12 08:29:21,415 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:29:21,416 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:29:21,416 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-04-12 08:29:21,426 [P8156/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 10ms)
+ 2018-04-12 08:29:24,091 [P8156/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-04-12 08:29:25,068 [P8156/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-04-12 08:29:25,301 [P8156/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-04-12 08:29:25,871 [P8156/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-04-12 08:29:25,884 [P8156/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5277ms)
+ 2018-04-12 08:29:25,890 [P8156/D2/T1] INFO  Umbraco.Web.ExamineStartup - Forcing index InternalIndexSet to be unlocked since it was left in a locked state
+ 2018-04-12 08:29:25,893 [P8156/D2/T1] INFO  Umbraco.Web.ExamineStartup - Forcing index ExternalIndexSet to be unlocked since it was left in a locked state
+ 2018-04-12 08:29:26,167 [P8156/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:58002/umbraco
+ 2018-04-12 08:29:26,169 [P8156/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:58002/umbraco (UmbracoModule request)
+ 2018-04-12 08:30:59,217 [P8156/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2018-04-12 08:30:59,266 [P8156/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2018-04-12 08:31:01,385 [P8156/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:31:01,385 [P8156/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:31:01,386 [P8156/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-04-12 08:31:01,411 [P8156/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 25ms)
+ 2018-04-12 08:31:16,043 [P8156/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-12 08:31:52,454 [P8156/D2/T5] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-12 08:31:57,174 [P8156/D2/T3] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-12 08:31:59,375 [P8156/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:31:59,377 [P8156/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-12 08:31:59,377 [P8156/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-04-12 08:31:59,441 [P8156/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 63ms)
+ 2018-04-12 08:31:59,518 [P8156/D2/T12] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-04-11 08:31:59
+ 2018-04-12 08:32:20,274 [P8156/D2/T17] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:32:20,274 [P8156/D2/T17] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:32:20,275 [P8156/D2/T17] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-04-12 08:32:20,288 [P8156/D2/T17] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 13ms)
+ 2018-04-12 08:32:20,408 [P8156/D2/T15] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:32:20,410 [P8156/D2/T15] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-12 08:32:20,410 [P8156/D2/T15] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2018-04-12 08:32:20,421 [P8156/D2/T15] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 10ms)
+ 2018-04-12 08:32:27,608 [P8156/D2/T14] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username tanphat2k4@gmail.com from IP address ::1
+ 2018-04-12 08:32:27,616 [P8156/D2/T14] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: tanphat2k4@gmail.com logged in from IP address ::1
+ 2018-04-12 08:32:29,119 [P8156/D2/T23] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:32:29,120 [P8156/D2/T23] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-12 08:32:29,121 [P8156/D2/T23] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2018-04-12 08:32:29,142 [P8156/D2/T23] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 21ms)
+ 2018-04-12 08:32:29,198 [P8156/D2/T23] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:32:29,198 [P8156/D2/T23] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:32:29,198 [P8156/D2/T23] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-04-12 08:32:29,198 [P8156/D2/T23] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2018-04-12 08:32:29,214 [P8156/D2/T23] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:32:29,214 [P8156/D2/T23] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:32:29,214 [P8156/D2/T23] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2018-04-12 08:32:29,229 [P8156/D2/T23] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 17ms)
+ 2018-04-12 08:32:29,276 [P8156/D2/T23] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:32:29,276 [P8156/D2/T23] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:32:29,276 [P8156/D2/T23] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2018-04-12 08:32:29,292 [P8156/D2/T23] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 15ms)
+ 2018-04-12 08:35:20,028 [P8156/D2/T35] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:35:20,029 [P8156/D2/T35] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:35:20,029 [P8156/D2/T35] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2018-04-12 08:35:20,054 [P8156/D2/T35] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 24ms)
+ 2018-04-12 08:36:06,523 [P8156/D2/T57] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 08:36:06,523 [P8156/D2/T53] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 08:36:06,525 [P8156/D2/T53] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 08:36:06,598 [P8156/D2/T48] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 08:36:06,599 [P8156/D2/T48] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 08:36:06,599 [P8156/D2/T48] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 08:36:06,600 [P8156/D2/T48] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 08:36:17,522 [P8156/D2/T60] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:36:17,523 [P8156/D2/T60] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:36:17,523 [P8156/D2/T60] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Editors.IEditorValidator
+ 2018-04-12 08:36:17,545 [P8156/D2/T60] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Editors.IEditorValidator (took 21ms)
+ 2018-04-12 08:38:19,844 [P8156/D2/T45] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:38:19,844 [P8156/D2/T45] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:38:19,845 [P8156/D2/T45] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2018-04-12 08:38:19,857 [P8156/D2/T45] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 12ms)
+ 2018-04-12 08:38:27,119 [P8156/D2/T40] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.InvalidOperationException: The template with Id 1091 does not exist, the page cannot render
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__12_2(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-04-12 08:39:57,919 [P8156/D2/T28] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 08:39:57,921 [P8156/D2/T28] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 08:39:57,922 [P8156/D2/T28] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 08:39:57,922 [P8156/D2/T28] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 08:39:57,926 [P8156/D2/T34] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 08:39:57,936 [P8156/D2/T28] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 08:39:57,936 [P8156/D2/T28] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 08:40:21,134 [P8156/D2/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 08:40:21,136 [P8156/D2/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 08:40:21,147 [P8156/D2/T24] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 08:40:21,389 [P8156/D2/T28] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 08:40:21,391 [P8156/D2/T28] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 08:40:21,391 [P8156/D2/T28] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 08:40:21,392 [P8156/D2/T28] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 08:41:10,635 [P8156/D2/T14] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 08:41:10,653 [P8156/D2/T16] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 08:41:10,654 [P8156/D2/T16] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 08:41:10,655 [P8156/D2/T16] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 08:41:10,655 [P8156/D2/T16] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 08:41:10,680 [P8156/D2/T18] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 08:41:10,681 [P8156/D2/T18] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 08:41:22,364 [P8156/D2/T18] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 08:41:22,365 [P8156/D2/T18] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 08:41:22,366 [P8156/D2/T18] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 08:41:22,367 [P8156/D2/T18] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 08:41:22,386 [P8156/D2/T14] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 08:41:22,415 [P8156/D2/T14] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 08:41:22,416 [P8156/D2/T14] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 08:41:44,884 [P8156/D2/T26] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.InvalidOperationException: The template with Id 1091 does not exist, the page cannot render
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__12_2(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-04-12 08:42:47,605 [P8156/D2/T32] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.InvalidOperationException: The template with Id 1091 does not exist, the page cannot render
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__12_2(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-04-12 08:43:14,402 [P8156/D2/T41] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:43:14,402 [P8156/D2/T41] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:43:14,403 [P8156/D2/T41] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.HealthCheck.HealthCheck
+ 2018-04-12 08:43:14,448 [P8156/D2/T41] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.HealthCheck.HealthCheck (took 45ms)
+ 2018-04-12 08:43:15,347 [P8156/D2/T36] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 08:43:15,348 [P8156/D2/T36] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 08:43:15,349 [P8156/D2/T36] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 08:43:15,350 [P8156/D2/T36] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 08:43:15,352 [P8156/D2/T32] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 08:43:15,353 [P8156/D2/T32] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 08:43:15,382 [P8156/D2/T33] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 08:43:31,123 [P8156/D2/T36] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 08:43:31,123 [P8156/D2/T25] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 08:43:31,124 [P8156/D2/T25] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 08:43:31,185 [P8156/D2/T39] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 08:43:31,186 [P8156/D2/T39] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 08:43:31,187 [P8156/D2/T39] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 08:43:31,188 [P8156/D2/T39] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 08:45:14,476 [P8156/D2/T56] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.InvalidOperationException: The template with Id 1091 does not exist, the page cannot render
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__12_2(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-04-12 08:45:48,481 [P8156/D2/T54] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.InvalidOperationException: The template with Id 1091 does not exist, the page cannot render
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__12_2(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-04-12 08:49:16,744 [P8156/D2/T41] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.InvalidOperationException: The template with Id 1091 does not exist, the page cannot render
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__12_2(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-04-12 08:52:09,538 [P8156/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-04-12 08:52:09,539 [P8156/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-04-12 08:52:09,552 [P8156/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-04-12 08:52:09,553 [P8156/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-04-12 08:52:09,554 [P8156/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-04-12 08:52:09,554 [P8156/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-04-12 08:52:09,571 [P8156/D2/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-04-12 08:52:09,572 [P8156/D2/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-04-12 08:52:09,573 [P8156/D2/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-04-12 08:52:09,586 [P8156/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2018-04-12 08:52:09,588 [P8156/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2018-04-12 08:52:09,588 [P8156/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2018-04-12 08:52:09,618 [P8156/D2/T17] INFO  Umbraco.Core.MainDom - Stopping...
+ 2018-04-12 08:52:09,633 [P8156/D2/T17] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2018-04-12 08:52:09,694 [P8156/D2/T17] INFO  Umbraco.Web.ExamineStartup - Complete (took 61ms)
+ 2018-04-12 08:52:09,696 [P8156/D2/T17] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2018-04-12 08:52:09,697 [P8156/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-04-12 08:52:09,697 [P8156/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-04-12 08:52:09,699 [P8156/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-04-12 08:52:09,700 [P8156/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-04-12 08:52:09,701 [P8156/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-04-12 08:52:09,701 [P8156/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Terminating
+ 2018-04-12 08:52:09,702 [P8156/D2/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Waiting for tasks to complete
+ 2018-04-12 08:52:09,703 [P8156/D2/T26] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-04-12 08:52:09,703 [P8156/D2/T26] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Tasks completed, terminated
+ 2018-04-12 08:52:21,777 [P8156/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.9.2 application starting on DOMAINPC
+ 2018-04-12 08:52:21,811 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-04-12 08:52:21,825 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 14ms)
+ 2018-04-12 08:52:21,926 [P8156/D3/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-04-12 08:52:21,929 [P8156/D3/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-04-12 08:52:21,933 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:52:22,522 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 590ms)
+ 2018-04-12 08:52:22,523 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-04-12 08:52:22,545 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 22ms)
+ 2018-04-12 08:52:22,592 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:52:22,594 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-12 08:52:22,594 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-04-12 08:52:22,605 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 10ms)
+ 2018-04-12 08:52:22,605 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:52:22,606 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:52:22,606 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-04-12 08:52:22,618 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 12ms)
+ 2018-04-12 08:52:22,644 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:52:22,644 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:52:22,645 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-04-12 08:52:22,657 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 12ms)
+ 2018-04-12 08:52:22,658 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:52:22,659 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:52:22,659 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-04-12 08:52:22,675 [P8156/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 16ms)
+ 2018-04-12 08:52:25,800 [P8156/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-04-12 08:52:26,476 [P8156/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-04-12 08:52:26,736 [P8156/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-04-12 08:52:26,738 [P8156/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-04-12 08:52:26,903 [P8156/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5222ms)
+ 2018-04-12 08:52:27,203 [P8156/D3/T46] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:58002/umbraco
+ 2018-04-12 08:52:27,207 [P8156/D3/T46] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:58002/umbraco (UmbracoModule request)
+ 2018-04-12 08:52:39,809 [P8156/D2/T46] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change in C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\3c9194c4\1cee2766\hash\hash.web
+Change in C:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\vs\3c9194c4\1cee2766\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2018-04-12 08:55:19,400 [P8156/D3/T9] INFO  umbraco.content - Load Xml from file...
+ 2018-04-12 08:55:19,405 [P8156/D3/T9] INFO  umbraco.content - Loaded Xml from file.
+ 2018-04-12 08:55:21,251 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:55:21,251 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:55:21,253 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-04-12 08:55:21,278 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 25ms)
+ 2018-04-12 08:55:25,998 [P8156/D3/T9] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.InvalidOperationException: The template with Id 1091 does not exist, the page cannot render
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__12_2(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-04-12 08:56:19,494 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:56:19,495 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-12 08:56:19,495 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-04-12 08:56:19,581 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 85ms)
+ 2018-04-12 08:56:19,740 [P8156/D3/T20] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-04-11 08:56:19
+ 2018-04-12 08:57:11,699 [P8156/D3/T3] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:57:11,700 [P8156/D3/T3] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:57:11,701 [P8156/D3/T3] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-04-12 08:57:11,739 [P8156/D3/T3] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 38ms)
+ 2018-04-12 08:57:11,756 [P8156/D3/T3] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:57:11,760 [P8156/D3/T3] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 4ms)
+ 2018-04-12 08:57:11,761 [P8156/D3/T3] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2018-04-12 08:57:11,796 [P8156/D3/T3] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 34ms)
+ 2018-04-12 08:58:25,419 [P8156/D3/T45] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:58:25,419 [P8156/D3/T45] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:58:25,420 [P8156/D3/T45] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2018-04-12 08:58:25,439 [P8156/D3/T45] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 19ms)
+ 2018-04-12 08:59:44,130 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:59:44,131 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-12 08:59:44,132 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2018-04-12 08:59:44,170 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 38ms)
+ 2018-04-12 08:59:54,763 [P8156/D3/T47] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:59:54,764 [P8156/D3/T47] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 08:59:54,765 [P8156/D3/T47] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-04-12 08:59:54,765 [P8156/D3/T47] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2018-04-12 08:59:56,605 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:59:56,606 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-12 08:59:56,620 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2018-04-12 08:59:56,637 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 17ms)
+ 2018-04-12 08:59:56,676 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 08:59:56,679 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 3ms)
+ 2018-04-12 08:59:56,682 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2018-04-12 08:59:56,708 [P8156/D3/T9] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 26ms)
+ 2018-04-12 09:00:56,082 [P8156/D3/T11] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 09:00:56,082 [P8156/D3/T37] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 09:00:56,085 [P8156/D3/T37] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 09:00:56,090 [P8156/D3/T12] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 09:00:56,091 [P8156/D3/T12] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 09:00:56,092 [P8156/D3/T12] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 09:00:56,093 [P8156/D3/T12] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 09:01:04,951 [P8156/D3/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 09:01:04,951 [P8156/D3/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 09:01:04,952 [P8156/D3/T11] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Editors.IEditorValidator
+ 2018-04-12 09:01:04,983 [P8156/D3/T11] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Editors.IEditorValidator (took 31ms)
+ 2018-04-12 09:01:12,451 [P8156/D3/T37] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 09:01:12,452 [P8156/D3/T37] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 09:01:12,456 [P8156/D3/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 09:01:12,514 [P8156/D3/T29] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 09:01:12,514 [P8156/D3/T29] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 09:01:12,515 [P8156/D3/T29] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 09:01:12,515 [P8156/D3/T29] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 09:02:13,551 [P8156/D3/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 09:02:13,551 [P8156/D3/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 09:02:13,552 [P8156/D3/T12] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2018-04-12 09:02:13,583 [P8156/D3/T12] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 31ms)
+ 2018-04-12 09:02:24,206 [P8156/D3/T23] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.InvalidOperationException: The template with Id 1091 does not exist, the page cannot render
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__12_2(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-04-12 09:03:20,208 [P8156/D3/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 09:03:20,215 [P8156/D3/T37] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 09:03:20,220 [P8156/D3/T37] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 09:03:20,235 [P8156/D3/T23] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 09:03:20,237 [P8156/D3/T23] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 09:03:20,238 [P8156/D3/T23] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 09:03:20,239 [P8156/D3/T23] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 09:03:45,870 [P8156/D3/T23] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.InvalidOperationException: The template with Id 1091 does not exist, the page cannot render
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__12_2(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-04-12 09:04:27,308 [P8156/D3/T35] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 09:04:27,313 [P8156/D3/T35] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 09:04:27,324 [P8156/D3/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 09:04:27,544 [P8156/D3/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 09:04:27,544 [P8156/D3/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 09:04:27,545 [P8156/D3/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 09:04:27,545 [P8156/D3/T54] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 09:06:08,449 [P8156/D3/T36] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 09:06:08,451 [P8156/D3/T36] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 09:06:08,458 [P8156/D3/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 09:06:08,459 [P8156/D3/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 09:06:08,460 [P8156/D3/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 09:06:08,460 [P8156/D3/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 09:06:08,755 [P8156/D3/T15] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 09:07:24,439 [P8156/D3/T18] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-12 09:08:23,272 [P8156/D3/T56] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 09:08:23,276 [P8156/D3/T56] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 09:08:23,277 [P8156/D3/T56] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 09:08:23,278 [P8156/D3/T56] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 09:08:23,277 [P8156/D3/T50] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 09:08:23,282 [P8156/D3/T50] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 09:08:23,293 [P8156/D3/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 09:09:23,034 [P8156/D3/T51] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 09:09:23,035 [P8156/D3/T51] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 09:09:23,037 [P8156/D3/T51] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 09:09:23,037 [P8156/D3/T51] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 09:09:23,065 [P8156/D3/T50] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 09:09:23,398 [P8156/D3/T56] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 09:09:23,399 [P8156/D3/T56] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 09:09:58,724 [P8156/D3/T45] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-12 09:11:03,266 [P8156/D3/T43] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 09:11:03,446 [P8156/D3/T41] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 09:11:03,447 [P8156/D3/T41] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 09:11:03,514 [P8156/D3/T49] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 09:11:03,515 [P8156/D3/T49] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 09:11:03,515 [P8156/D3/T49] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 09:11:03,534 [P8156/D3/T49] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 09:11:22,401 [P8156/D3/T56] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 09:11:22,412 [P8156/D3/T42] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 09:11:22,413 [P8156/D3/T42] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 09:11:22,414 [P8156/D3/T42] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 09:11:22,415 [P8156/D3/T42] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 09:11:22,424 [P8156/D3/T43] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 09:11:22,425 [P8156/D3/T43] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 09:12:01,556 [P8156/D3/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HOW TO ENSURE YOUR INTERIOR PROJECT IS A SUCCESS' with Id '1097' has been unpublished.
+ 2018-04-12 09:12:06,737 [P8156/D3/T16] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 09:12:06,771 [P8156/D3/T16] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 09:12:19,639 [P8156/D3/T4] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'WANT TO DESIGN YOUR HOME YOURSELF? BUT STRUGGLING TO MATCH THE PIECES?' with Id '1098' has been unpublished.
+ 2018-04-12 09:12:24,675 [P8156/D3/T41] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 09:12:24,709 [P8156/D3/T41] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 09:12:33,055 [P8156/D3/T4] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'INSPIRATION FROM TRAVEL. SAN SEBASTIAN, SPAIN' with Id '1099' has been unpublished.
+ 2018-04-12 09:12:38,090 [P8156/D3/T33] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 09:12:38,123 [P8156/D3/T33] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 09:12:45,672 [P8156/D3/T49] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'WHY KIDS ROOMS ARE NOT EASY TO DECORATE' with Id '1100' has been unpublished.
+ 2018-04-12 09:12:50,773 [P8156/D3/T51] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 09:12:50,804 [P8156/D3/T51] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 09:13:00,377 [P8156/D3/T51] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'GET CLARITY ON WHAT YOUR IDEAL HOME SHOULD LOOK LIKE' with Id '1107' has been unpublished.
+ 2018-04-12 09:13:05,365 [P8156/D3/T37] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 09:13:05,405 [P8156/D3/T37] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 09:13:13,583 [P8156/D3/T51] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'GET PIECE OF MIND BEFORE STARTING YOUR HOME REFURBISHMENT PROJECT' with Id '1109' has been unpublished.
+ 2018-04-12 09:13:18,538 [P8156/D3/T51] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 09:13:18,581 [P8156/D3/T51] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 09:13:27,811 [P8156/D3/T42] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'DETERMINING GOALS BEFORE BEGINNING YOUR HOME REFURBISHMENT' with Id '1111' has been unpublished.
+ 2018-04-12 09:13:32,757 [P8156/D3/T33] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 09:13:32,793 [P8156/D3/T33] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 09:14:39,782 [P8156/D3/T4] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HOW TO ENSURE YOUR INTERIOR PROJECT IS A SUCCESS' with Id '0' has been published.
+ 2018-04-12 09:14:44,727 [P8156/D3/T51] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 09:14:44,772 [P8156/D3/T51] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 09:16:03,826 [P8156/D3/T40] ERROR umbraco.presentation.preview.PreviewContent - Couldn't delete preview set: 0_c31efd3f-0c6b-454a-91be-6818c1259ad2.config - User 0
+System.UnauthorizedAccessException: Access to the path 'C:\Users\Administrator\Desktop\MVC\Ms.Ngoc\Ms.Ngoc\App_Data\preview\0_c31efd3f-0c6b-454a-91be-6818c1259ad2.config' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileInfo.Delete()
+   at umbraco.presentation.preview.PreviewContent.DeletePreviewFile(Int32 userId, FileInfo file)
+ 2018-04-12 09:16:14,309 [P8156/D3/T51] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 09:16:14,310 [P8156/D3/T51] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 09:16:14,362 [P8156/D3/T4] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 09:16:14,362 [P8156/D3/T4] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 09:16:14,363 [P8156/D3/T4] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 09:16:14,364 [P8156/D3/T4] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 09:16:14,368 [P8156/D3/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 09:17:23,767 [P8156/D3/T16] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 09:17:23,768 [P8156/D3/T16] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 09:17:23,768 [P8156/D3/T16] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 09:17:23,769 [P8156/D3/T16] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 09:17:23,805 [P8156/D3/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 09:17:23,805 [P8156/D3/T47] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 09:17:23,847 [P8156/D3/T4] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 09:18:01,463 [P8156/D3/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HOW TO ENSURE YOUR INTERIOR PROJECT IS A SUCCESS' with Id '1116' has been unpublished.
+ 2018-04-12 09:18:06,358 [P8156/D3/T14] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 09:18:06,392 [P8156/D3/T14] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 09:18:43,257 [P8156/D3/T43] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HOW TO ENSURE YOUR INTERIOR PROJECT IS A SUCCESS' with Id '0' has been published.
+ 2018-04-12 09:18:48,031 [P8156/D3/T43] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 09:18:48,078 [P8156/D3/T43] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 09:25:02,959 [P8156/D3/T4] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 09:25:02,962 [P8156/D3/T4] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 09:25:02,963 [P8156/D3/T4] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 09:25:02,963 [P8156/D3/T4] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 09:25:02,971 [P8156/D3/T23] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 09:25:03,354 [P8156/D3/T29] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 09:25:03,354 [P8156/D3/T29] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 09:25:26,723 [P8156/D3/T4] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BLOG' with Id '1081' has been unpublished.
+ 2018-04-12 09:25:26,786 [P8156/D3/T4] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HOW TO ENSURE YOUR INTERIOR PROJECT IS A SUCCESS' with Id '1118' has been unpublished.
+ 2018-04-12 09:25:32,623 [P8156/D3/T40] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 09:25:32,638 [P8156/D3/T40] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 09:29:18,852 [P8156/D3/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'BLOG' with Id '0' has been published.
+ 2018-04-12 09:29:23,607 [P8156/D3/T16] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 09:29:23,638 [P8156/D3/T16] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 09:31:26,760 [P8156/D3/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HOW TO ENSURE YOUR INTERIOR PROJECT IS A SUCCESS' with Id '0' has been published.
+ 2018-04-12 09:31:31,554 [P8156/D3/T44] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 09:31:31,606 [P8156/D3/T44] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 09:46:44,424 [P8156/D3/T95] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: tanphat2k4@gmail.com, IP Address: ::1
+ 2018-04-12 11:22:31,848 [P8156/D3/T33] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username tanphat2k4@gmail.com from IP address ::1
+ 2018-04-12 11:22:31,859 [P8156/D3/T33] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: tanphat2k4@gmail.com logged in from IP address ::1
+ 2018-04-12 11:29:59,266 [P8156/D3/T4] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'WANT TO DESIGN YOUR HOME YOURSELF? BUT STRUGGLING TO MATCH THE PIECES?' with Id '0' has been published.
+ 2018-04-12 11:30:03,907 [P8156/D3/T12] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 11:30:03,952 [P8156/D3/T12] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 11:30:50,429 [P8156/D3/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'INSPIRATION FROM TRAVEL. SAN SEBASTIAN, SPAIN' with Id '0' has been published.
+ 2018-04-12 11:30:55,247 [P8156/D3/T38] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 11:30:55,297 [P8156/D3/T38] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 11:31:54,073 [P8156/D3/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'WHY KIDS ROOMS ARE NOT EASY TO DECORATE' with Id '0' has been published.
+ 2018-04-12 11:31:58,744 [P8156/D3/T37] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 11:31:58,844 [P8156/D3/T37] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 11:32:40,988 [P8156/D3/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'WHY KIDS ROOMS ARE NOT EASY TO DECORATE' with Id '1124' has been published.
+ 2018-04-12 11:32:45,603 [P8156/D3/T19] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 11:32:45,663 [P8156/D3/T19] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 11:33:35,220 [P8156/D3/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'GET CLARITY ON WHAT YOUR IDEAL HOME SHOULD LOOK LIKE' with Id '0' has been published.
+ 2018-04-12 11:33:40,057 [P8156/D3/T49] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 11:33:40,118 [P8156/D3/T49] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 11:34:51,456 [P8156/D3/T11] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'GET PIECE OF MIND BEFORE STARTING YOUR HOME REFURBISHMENT PROJECT' with Id '0' has been published.
+ 2018-04-12 11:34:56,341 [P8156/D3/T19] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 11:34:56,415 [P8156/D3/T19] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 11:36:35,855 [P8156/D3/T4] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'DETERMINING GOALS BEFORE BEGINNING YOUR HOME REFURBISHMENT' with Id '0' has been published.
+ 2018-04-12 11:36:40,622 [P8156/D3/T37] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 11:36:40,666 [P8156/D3/T37] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 11:45:32,343 [P8156/D3/T5] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'FOUR MISTAKES BUSY FAMILIES MAKE WHEN PREPARING FOR THEIR HOME IMPROVEMENT' with Id '0' has been published.
+ 2018-04-12 11:45:37,169 [P8156/D3/T32] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 11:45:37,245 [P8156/D3/T32] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 14:42:54,310 [P10188/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.9.2 application starting on DOMAINPC
+ 2018-04-12 14:42:54,391 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-04-12 14:42:54,450 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 59ms)
+ 2018-04-12 14:42:54,666 [P10188/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-04-12 14:42:54,673 [P10188/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-04-12 14:42:54,681 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 14:42:56,491 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1809ms)
+ 2018-04-12 14:42:56,492 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-04-12 14:42:56,496 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 4ms)
+ 2018-04-12 14:42:56,732 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 14:42:56,734 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-12 14:42:56,734 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-04-12 14:42:56,735 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2018-04-12 14:42:56,737 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 14:42:56,737 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 14:42:56,738 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-04-12 14:42:56,742 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 4ms)
+ 2018-04-12 14:42:56,795 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 14:42:56,796 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 14:42:56,796 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-04-12 14:42:56,797 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2018-04-12 14:42:56,799 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 14:42:56,799 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 14:42:56,800 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-04-12 14:42:56,802 [P10188/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 2ms)
+ 2018-04-12 14:43:02,900 [P10188/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-04-12 14:43:04,513 [P10188/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-04-12 14:43:06,260 [P10188/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-04-12 14:43:06,262 [P10188/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-04-12 14:43:06,648 [P10188/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 12515ms)
+ 2018-04-12 14:43:06,661 [P10188/D2/T1] INFO  Umbraco.Web.ExamineStartup - Forcing index InternalMemberIndexSet to be unlocked since it was left in a locked state
+ 2018-04-12 14:43:06,665 [P10188/D2/T1] INFO  Umbraco.Web.ExamineStartup - Forcing index InternalIndexSet to be unlocked since it was left in a locked state
+ 2018-04-12 14:43:06,674 [P10188/D2/T1] INFO  Umbraco.Web.ExamineStartup - Forcing index ExternalIndexSet to be unlocked since it was left in a locked state
+ 2018-04-12 14:43:11,891 [P10188/D2/T5] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:58002/umbraco
+ 2018-04-12 14:43:11,898 [P10188/D2/T5] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:58002/umbraco (UmbracoModule request)
+ 2018-04-12 14:44:09,116 [P10188/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 14:44:09,117 [P10188/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 14:44:09,118 [P10188/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-04-12 14:44:09,120 [P10188/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 1ms)
+ 2018-04-12 14:44:09,610 [P10188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 14:44:09,630 [P10188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 19ms)
+ 2018-04-12 14:44:09,630 [P10188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2018-04-12 14:44:09,632 [P10188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 1ms)
+ 2018-04-12 14:44:09,875 [P10188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 14:44:09,876 [P10188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-12 14:44:09,877 [P10188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-04-12 14:44:09,878 [P10188/D2/T5] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 1ms)
+ 2018-04-12 14:44:17,591 [P10188/D2/T11] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username tanphat2k4@gmail.com from IP address ::1
+ 2018-04-12 14:44:17,602 [P10188/D2/T11] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: tanphat2k4@gmail.com logged in from IP address ::1
+ 2018-04-12 14:44:19,535 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 14:44:19,536 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 14:44:19,536 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2018-04-12 14:44:19,538 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 1ms)
+ 2018-04-12 14:44:19,578 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 14:44:19,578 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 14:44:19,578 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-04-12 14:44:19,578 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2018-04-12 14:44:19,593 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 14:44:19,593 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 2ms)
+ 2018-04-12 14:44:19,593 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2018-04-12 14:44:19,593 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 1ms)
+ 2018-04-12 14:44:19,671 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 14:44:19,671 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 14:44:19,671 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2018-04-12 14:44:19,687 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 1ms)
+ 2018-04-12 14:44:23,484 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 14:44:23,485 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 14:44:23,486 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-04-12 14:44:23,488 [P10188/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 1ms)
+ 2018-04-12 14:44:35,710 [P10188/D2/T5] INFO  umbraco.content - Load Xml from file...
+ 2018-04-12 14:44:35,746 [P10188/D2/T5] INFO  umbraco.content - Loaded Xml from file.
+ 2018-04-12 14:44:39,952 [P10188/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 14:44:39,953 [P10188/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 14:44:39,953 [P10188/D2/T11] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2018-04-12 14:44:39,954 [P10188/D2/T11] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 0ms)
+ 2018-04-12 14:45:09,728 [P10188/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-04-11 14:45:09
+ 2018-04-12 15:02:35,861 [P10188/D2/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 15:02:35,861 [P10188/D2/T94] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 15:02:35,862 [P10188/D2/T95] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 15:02:35,864 [P10188/D2/T95] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 15:02:35,864 [P10188/D2/T95] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 15:02:35,865 [P10188/D2/T95] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 15:02:35,862 [P10188/D2/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 15:05:31,595 [P10188/D2/T107] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpParseException (0x80004005): The foreach block is missing a closing "}" character.  Make sure you have a matching "}" character for all the "{" characters within this block, and that none of the "}" characters are being interpreted as markup.
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-04-12 15:21:58,468 [P10188/D2/T86] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: tanphat2k4@gmail.com, IP Address: ::1
+ 2018-04-12 15:31:11,822 [P10188/D2/T88] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\Administrator\Desktop\MVC\Ms.Ngoc\Ms.Ngoc\Views\Blog_item.cshtml(44): error CS0103: The name 'url' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-04-12 15:36:43,737 [P10188/D2/T100] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username tanphat2k4@gmail.com from IP address ::1
+ 2018-04-12 15:36:43,738 [P10188/D2/T100] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: tanphat2k4@gmail.com logged in from IP address ::1
+ 2018-04-12 15:36:50,884 [P10188/D2/T100] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 15:36:50,897 [P10188/D2/T94] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 15:36:50,897 [P10188/D2/T94] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 15:36:50,898 [P10188/D2/T94] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 15:36:50,899 [P10188/D2/T94] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 15:36:50,948 [P10188/D2/T98] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 15:36:50,950 [P10188/D2/T98] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 15:55:50,442 [P10188/D2/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HOW TO ENSURE YOUR INTERIOR PROJECT IS A SUCCESS' with Id '1121' has been published.
+ 2018-04-12 15:55:50,705 [P10188/D2/T94] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 15:55:50,706 [P10188/D2/T94] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-12 15:55:50,706 [P10188/D2/T94] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2018-04-12 15:55:50,712 [P10188/D2/T94] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 5ms)
+ 2018-04-12 15:55:55,656 [P10188/D2/T86] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 15:55:55,700 [P10188/D2/T86] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 16:00:21,496 [P10188/D2/T94] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 16:00:21,497 [P10188/D2/T94] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 16:00:21,498 [P10188/D2/T94] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 16:00:21,499 [P10188/D2/T94] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 16:00:21,497 [P10188/D2/T89] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 16:00:21,585 [P10188/D2/T98] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 16:00:21,585 [P10188/D2/T98] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 16:03:43,995 [P10188/D2/T92] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-12 16:04:58,896 [P10188/D2/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'WANT TO DESIGN YOUR HOME YOURSELF? BUT STRUGGLING TO MATCH THE PIECES?' with Id '1122' has been published.
+ 2018-04-12 16:05:03,682 [P10188/D2/T94] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 16:05:03,721 [P10188/D2/T94] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 16:05:36,864 [P10188/D2/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'WANT TO DESIGN YOUR HOME YOURSELF? BUT STRUGGLING TO MATCH THE PIECES?' with Id '1122' has been published.
+ 2018-04-12 16:05:41,691 [P10188/D2/T89] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 16:05:41,737 [P10188/D2/T89] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 16:07:04,552 [P10188/D2/T95] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'GET CLARITY ON WHAT YOUR IDEAL HOME SHOULD LOOK LIKE' with Id '1125' has been published.
+ 2018-04-12 16:07:09,390 [P10188/D2/T93] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 16:07:09,479 [P10188/D2/T93] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 16:07:21,744 [P10188/D2/T99] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'GET PIECE OF MIND BEFORE STARTING YOUR HOME REFURBISHMENT PROJECT' with Id '1126' has been published.
+ 2018-04-12 16:07:26,611 [P10188/D2/T88] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 16:07:26,653 [P10188/D2/T88] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 16:07:32,034 [P10188/D2/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'DETERMINING GOALS BEFORE BEGINNING YOUR HOME REFURBISHMENT' with Id '1127' has been published.
+ 2018-04-12 16:07:36,838 [P10188/D2/T93] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 16:07:36,880 [P10188/D2/T93] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 16:07:41,081 [P10188/D2/T95] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'FOUR MISTAKES BUSY FAMILIES MAKE WHEN PREPARING FOR THEIR HOME IMPROVEMENT' with Id '1130' has been published.
+ 2018-04-12 16:07:45,927 [P10188/D2/T98] INFO  umbraco.content - Save Xml to file...
+ 2018-04-12 16:07:45,978 [P10188/D2/T98] INFO  umbraco.content - Saved Xml to file.
+ 2018-04-12 16:23:03,585 [P10188/D2/T100] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 16:23:03,614 [P10188/D2/T87] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2018-04-12 16:23:03,615 [P10188/D2/T87] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2018-04-12 16:23:03,688 [P10188/D2/T89] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field multiPicker
+ 2018-04-12 16:23:03,689 [P10188/D2/T89] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field onlyImages
+ 2018-04-12 16:23:03,690 [P10188/D2/T89] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field disableFolderSelect
+ 2018-04-12 16:23:03,692 [P10188/D2/T89] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2018-04-12 16:37:16,471 [P10188/D2/T97] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: tanphat2k4@gmail.com, IP Address: ::1
+ 2018-04-12 16:43:16,611 [P10188/D2/T87] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username tanphat2k4@gmail.com from IP address ::1
+ 2018-04-12 16:43:16,612 [P10188/D2/T87] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: tanphat2k4@gmail.com logged in from IP address ::1
+ 2018-04-12 16:58:29,876 [P10188/D2/T93] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 16:58:29,877 [P10188/D2/T93] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-12 16:58:29,878 [P10188/D2/T93] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Editors.IEditorValidator
+ 2018-04-12 16:58:29,881 [P10188/D2/T93] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Editors.IEditorValidator (took 3ms)
+ 2018-04-12 17:08:16,205 [P10188/D2/T124] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:08:55,567 [P10188/D2/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:09:40,108 [P10188/D2/T88] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:10:10,890 [P10188/D2/T92] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:11:11,181 [P10188/D2/T98] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:11:24,277 [P10188/D2/T88] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:12:09,526 [P10188/D2/T94] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 17:17:14,253 [P10188/D2/T98] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:18:13,919 [P10188/D2/T93] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 17:18:13,954 [P10188/D2/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:18:14,137 [P10188/D2/T97] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:18:14,186 [P10188/D2/T99] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:20:30,089 [P10188/D2/T97] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 17:20:30,108 [P10188/D2/T99] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:20:30,610 [P10188/D2/T100] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:20:30,641 [P10188/D2/T99] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:20:57,628 [P10188/D2/T97] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:20:57,636 [P10188/D2/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:20:57,733 [P10188/D2/T124] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 17:20:57,955 [P10188/D2/T92] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:26:47,032 [P10188/D2/T94] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:26:47,056 [P10188/D2/T87] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:26:47,076 [P10188/D2/T88] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 17:26:47,288 [P10188/D2/T97] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:38:32,496 [P10188/D2/T95] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: tanphat2k4@gmail.com, IP Address: ::1
+ 2018-04-12 17:38:38,503 [P10188/D2/T87] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: tanphat2k4@gmail.com, IP Address: ::1
+ 2018-04-12 17:48:04,683 [P10188/D2/T87] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username tanphat2k4@gmail.com from IP address ::1
+ 2018-04-12 17:48:04,684 [P10188/D2/T87] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: tanphat2k4@gmail.com logged in from IP address ::1
+ 2018-04-12 17:48:10,197 [P10188/D2/T97] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:48:10,201 [P10188/D2/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:48:10,228 [P10188/D2/T100] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 17:48:10,318 [P10188/D2/T124] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 18:00:12,027 [P10188/D2/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-04-12 18:00:12,029 [P10188/D2/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-04-12 18:00:12,048 [P10188/D2/T89] INFO  Umbraco.Core.MainDom - Stopping...
+ 2018-04-12 18:00:12,064 [P10188/D2/T86] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-04-12 18:00:12,066 [P10188/D2/T89] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2018-04-12 18:00:12,074 [P10188/D2/T89] INFO  Umbraco.Web.ExamineStartup - Complete (took 7ms)
+ 2018-04-12 18:00:12,077 [P10188/D2/T89] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2018-04-12 18:00:12,079 [P10188/D2/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-04-12 18:00:12,080 [P10188/D2/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-04-12 18:00:12,081 [P10188/D2/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Terminating
+ 2018-04-12 18:00:12,082 [P10188/D2/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Waiting for tasks to complete
+ 2018-04-12 18:00:12,083 [P10188/D2/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [HealthCheckNotifier] Tasks completed, terminated
+ 2018-04-12 18:00:12,083 [P10188/D2/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-04-12 18:00:12,084 [P10188/D2/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-04-12 18:00:12,084 [P10188/D2/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-04-12 18:00:12,085 [P10188/D2/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-04-12 18:00:12,085 [P10188/D2/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-04-12 18:00:12,085 [P10188/D2/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-04-12 18:00:12,087 [P10188/D2/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Terminating
+ 2018-04-12 18:00:12,088 [P10188/D2/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Waiting for tasks to complete
+ 2018-04-12 18:00:12,089 [P10188/D2/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-04-12 18:00:12,089 [P10188/D2/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-04-12 18:00:12,090 [P10188/D2/T93] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-04-12 18:00:12,091 [P10188/D2/T87] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-04-12 18:00:12,090 [P10188/D2/T92] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [InstructionProcessing] Tasks completed, terminated
+ 2018-04-12 18:00:42,151 [P10188/D2/T87] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2018-04-12 18:00:56,291 [P10188/D3/T104] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.9.2 application starting on DOMAINPC
+ 2018-04-12 18:00:56,368 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-04-12 18:00:56,420 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Hash determined (took 52ms)
+ 2018-04-12 18:00:56,640 [P10188/D3/T104] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-04-12 18:00:56,644 [P10188/D3/T104] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-04-12 18:00:56,653 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 18:00:57,770 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1118ms)
+ 2018-04-12 18:00:57,771 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-04-12 18:00:57,810 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 38ms)
+ 2018-04-12 18:00:57,888 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 18:00:57,890 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 2ms)
+ 2018-04-12 18:00:57,891 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-04-12 18:00:57,916 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 24ms)
+ 2018-04-12 18:00:57,918 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 18:00:57,919 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 18:00:57,919 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-04-12 18:00:57,947 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 27ms)
+ 2018-04-12 18:00:58,026 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 18:00:58,027 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 18:00:58,027 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-04-12 18:00:58,071 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 43ms)
+ 2018-04-12 18:00:58,073 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 18:00:58,074 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 18:00:58,074 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-04-12 18:00:58,101 [P10188/D3/T104] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 27ms)
+ 2018-04-12 18:01:03,248 [P10188/D3/T104] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-04-12 18:01:04,465 [P10188/D3/T104] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-04-12 18:01:04,936 [P10188/D3/T104] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-04-12 18:01:05,319 [P10188/D3/T104] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-04-12 18:01:05,340 [P10188/D3/T104] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 9406ms)
+ 2018-04-12 18:01:05,927 [P10188/D3/T88] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:58002/umbraco
+ 2018-04-12 18:01:05,937 [P10188/D3/T88] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:58002/umbraco (UmbracoModule request)
+ 2018-04-12 18:03:21,040 [P10188/D3/T93] INFO  umbraco.content - Load Xml from file...
+ 2018-04-12 18:03:21,045 [P10188/D3/T93] INFO  umbraco.content - Loaded Xml from file.
+ 2018-04-12 18:03:23,897 [P10188/D3/T93] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 18:03:23,897 [P10188/D3/T93] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 18:03:23,898 [P10188/D3/T93] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-04-12 18:03:23,933 [P10188/D3/T93] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 35ms)
+ 2018-04-12 18:03:24,082 [P10188/D3/T86] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 18:03:24,083 [P10188/D3/T86] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 18:03:24,083 [P10188/D3/T86] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-04-12 18:03:24,113 [P10188/D3/T86] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 30ms)
+ 2018-04-12 18:03:24,622 [P10188/D3/T99] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 18:03:24,623 [P10188/D3/T99] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 18:03:24,623 [P10188/D3/T99] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2018-04-12 18:03:24,633 [P10188/D3/T99] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 10ms)
+ 2018-04-12 18:03:25,534 [P10188/D3/T95] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 18:03:25,534 [P10188/D3/T95] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 18:03:25,534 [P10188/D3/T95] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2018-04-12 18:03:25,547 [P10188/D3/T95] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 12ms)
+ 2018-04-12 18:03:25,570 [P10188/D3/T95] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 18:03:25,571 [P10188/D3/T95] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 18:03:25,571 [P10188/D3/T95] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-04-12 18:03:25,571 [P10188/D3/T95] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2018-04-12 18:03:25,578 [P10188/D3/T95] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 18:03:25,578 [P10188/D3/T95] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 18:03:25,579 [P10188/D3/T95] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2018-04-12 18:03:25,590 [P10188/D3/T95] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 11ms)
+ 2018-04-12 18:03:25,614 [P10188/D3/T95] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 18:03:25,614 [P10188/D3/T95] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 18:03:25,614 [P10188/D3/T95] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2018-04-12 18:03:25,626 [P10188/D3/T95] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 12ms)
+ 2018-04-12 18:03:27,181 [P10188/D3/T89] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 18:03:27,182 [P10188/D3/T89] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 18:03:27,182 [P10188/D3/T89] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-04-12 18:03:27,196 [P10188/D3/T89] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 13ms)
+ 2018-04-12 18:04:14,219 [P10188/D3/T97] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-04-11 18:04:14
+ 2018-04-12 18:06:24,717 [P10188/D3/T93] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-12 18:06:25,077 [P10188/D3/T124] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2018-04-12 18:08:35,305 [P10188/D3/T99] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 18:08:35,308 [P10188/D3/T97] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 18:08:35,347 [P10188/D3/T98] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 18:08:35,347 [P10188/D3/T124] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 18:09:29,080 [P10188/D3/T87] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-12 18:09:29,080 [P10188/D3/T87] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-12 18:09:29,081 [P10188/D3/T87] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.HealthCheck.HealthCheck
+ 2018-04-12 18:09:29,240 [P10188/D3/T87] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.HealthCheck.HealthCheck (took 159ms)
+ 2018-04-12 18:09:55,714 [P10188/D3/T89] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 18:09:55,758 [P10188/D3/T86] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field maxChars
+ 2018-04-12 18:09:55,773 [P10188/D3/T92] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
+ 2018-04-12 18:09:55,897 [P10188/D3/T95] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
