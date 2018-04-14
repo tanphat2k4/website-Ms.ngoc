@@ -3,7 +3,8 @@
         panel_width: 486,
         panel_height: 300
     });
-    $('#Bloghot')
+
+    $('#Blogpost')
         .jcarousel({
             wrap: 'circular'
         })

@@ -19,8 +19,8 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "8f24529d7e5b8988")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "336438e94c09b57c")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.12")]
 
 namespace Umbraco.Web.PublishedContentModels
 {
@@ -206,32 +206,6 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 	}
 
-	/// <summary>Search</summary>
-	[PublishedContentModel("search")]
-	public partial class Search : PublishedContentModel
-	{
-#pragma warning disable 0109 // new is redundant
-		public new const string ModelTypeAlias = "search";
-		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
-#pragma warning restore 0109
-
-		public Search(IPublishedContent content)
-			: base(content)
-		{ }
-
-#pragma warning disable 0109 // new is redundant
-		public new static PublishedContentType GetModelContentType()
-		{
-			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
-		}
-#pragma warning restore 0109
-
-		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Search, TValue>> selector)
-		{
-			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
-		}
-	}
-
 	/// <summary>Portfolio_item</summary>
 	[PublishedContentModel("portfolio_item")]
 	public partial class Portfolio_item : PublishedContentModel
@@ -344,6 +318,15 @@ namespace Umbraco.Web.PublishedContentModels
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
 		}
+
+		///<summary>
+		/// Hide in navigation
+		///</summary>
+		[ImplementPropertyType("hideInNavigation")]
+		public bool HideInNavigation
+		{
+			get { return this.GetPropertyValue<bool>("hideInNavigation"); }
+		}
 	}
 
 	/// <summary>Potential_Customer</summary>
@@ -405,6 +388,41 @@ namespace Umbraco.Web.PublishedContentModels
 		public string Subject
 		{
 			get { return this.GetPropertyValue<string>("subject"); }
+		}
+	}
+
+	/// <summary>Banner</summary>
+	[PublishedContentModel("banner")]
+	public partial class Banner : Misc
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "banner";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Banner(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Banner, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Gallery
+		///</summary>
+		[ImplementPropertyType("gallery")]
+		public IEnumerable<IPublishedContent> Gallery
+		{
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("gallery"); }
 		}
 	}
 

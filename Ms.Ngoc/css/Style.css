@@ -164,7 +164,25 @@ p {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
-
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    height: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    display: block;
+    unicode-bidi: isolate;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 0.5px;
+}
 /***Start Navigation*/
 #navbar {
     width: 1200px;
@@ -190,9 +208,6 @@ p {
     margin-right: 0;
     height: 70px;
     background-color: white
-}
-
-.collapse .navbar-collapse #abc {
 }
 
 .navigation ul li a {
@@ -400,28 +415,84 @@ img {
     height: auto
 }
 /*Home*/
-#Bloghot_wrapper {
+/***Start Blog Hot***/
+.blogpost-column{
+    width:100%;
+    float:left
+}
+.x-gap {
+    margin: 0 0 1.313em;
+    border-color: transparent;
+}
+.center-text{
+    text-align:center;
+}
+.x-recent-posts a.x-recent-post4{
+    width:22%
+}
+.x-recent-posts a {
+    overflow: hidden;
+    float: left;
+    display: block;
+    margin: 0 4% 0 0;
+    border: 1px solid #ddd;
+    border: 1px solid rgba(0,0,0,0.15);
+    padding: 5px 5px 0;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0.125em 0.275em 0 rgba(0,0,0,0.075);
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.x-recent-posts-img {
+    position: relative;
+    background: center center/cover no-repeat;
+    border-radius: 2px;
+    width: 22%;
+}
+x-recent-posts-content {
+    padding: 10px 5px;
+}
+.x-recent-posts .x-recent-posts-content h3 {
+    overflow: visible;
+    text-overflow: initial;
+    white-space: normal;
+    font-size: 18px;
+}
+.x-recent-posts .h-recent-posts {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#Blogpost_wrapper {
     margin: 20px auto;
     position: relative;
 }
-#Bloghot {
+
+#Blogpostt {
     position: relative;
     overflow: hidden;
     width: 1008px;
 }
-#Bloghot ul {
-        width: 20000em;
-        position: relative;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
 
-#Bloghot li {
-        float: left;
-        margin-right: 20px;
-        border: 1px solid #e9e5e5;
-    }
+#Blogpost ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#Blogpost li {
+    float: left;
+    margin-right: 20px;
+    border: 1px solid #e9e5e5;
+}
+/***End Blog Hot***/
+
 /*item-portfolio*/
 .share-introduce p {
     text-align: center;
@@ -670,7 +741,6 @@ a:-webkit-any {
 }
 .entry-wrap {
     display: block;
-    padding: 60px;
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 0.15em 0.35em 0 rgba(0,0,0,0.135);
