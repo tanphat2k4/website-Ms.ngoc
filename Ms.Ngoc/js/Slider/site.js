@@ -18,7 +18,7 @@
     $("menu").find("a").each(function(){
         var $self = $(this);
         if (url.indexOf($self.attr("href")) > 0) {
-           // $("#menu").find("li").removeClass("menu_active");
+           $("#menu").find("li").removeClass("menu_active");
             $self.closest("li").addClass("menu_active");
         }
     });
