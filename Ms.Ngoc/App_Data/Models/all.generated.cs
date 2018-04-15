@@ -8,8 +8,8 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "336438e94c09b57c")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.12")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "b9e71482112e4025")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.3")]
 
 
 // FILE: models.generated.cs
@@ -439,6 +439,111 @@ namespace Umbraco.Web.PublishedContentModels
 		public IEnumerable<IPublishedContent> Gallery
 		{
 			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("gallery"); }
+		}
+	}
+
+	/// <summary>Customer review</summary>
+	[PublishedContentModel("solution")]
+	public partial class Solution : Misc
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "solution";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Solution(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Solution, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Stories
+		///</summary>
+		[ImplementPropertyType("customerReview")]
+		public IHtmlString CustomerReview
+		{
+			get { return this.GetPropertyValue<IHtmlString>("customerReview"); }
+		}
+	}
+
+	/// <summary>Discover what is possible</summary>
+	[PublishedContentModel("dISCOVERWHATSPOSSIBLE")]
+	public partial class DIscoverwhatspossible : Misc
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "dISCOVERWHATSPOSSIBLE";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public DIscoverwhatspossible(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<DIscoverwhatspossible, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// possible
+		///</summary>
+		[ImplementPropertyType("possible")]
+		public IHtmlString Possible
+		{
+			get { return this.GetPropertyValue<IHtmlString>("possible"); }
+		}
+	}
+
+	/// <summary>Step process</summary>
+	[PublishedContentModel("stepProcess")]
+	public partial class StepProcess : Misc
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "stepProcess";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public StepProcess(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<StepProcess, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Step
+		///</summary>
+		[ImplementPropertyType("step")]
+		public string Step
+		{
+			get { return this.GetPropertyValue<string>("step"); }
 		}
 	}
 

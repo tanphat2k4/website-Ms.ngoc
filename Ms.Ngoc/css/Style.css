@@ -110,6 +110,7 @@ div {
 
 .container {
     margin: 0 auto;
+    width:100%;
 }
 
 label {
@@ -163,6 +164,34 @@ p {
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+}
+/*hr*/
+.x-content-band {
+    margin: 0 0 1.313em;
+    padding: 40px 0;
+}
+    .x-content-band.vc .wpb_row, .x-content-band.vc .wpb_content_element {
+        margin-bottom: 0;
+    }
+    .x-content-band .x-container {
+        position: relative;
+    }
+.x-container {
+    margin: 0 auto;
+}
+.x-column.last, .x-column:last-of-type {
+    margin-right:0;
+}
+.x-column.x-1-1 {
+    width: 100%;
+}
+
+.x-column {
+    float: left;
+    margin-right: 4%;
+}
+.x-gap {
+    border-color: transparent;
 }
 hr {
     margin-top: 20px;
@@ -231,10 +260,22 @@ hr {
     background-color: white !important;
 }
 
-#btnSearch {
-    border: 0.5px solid red;
+.menu_active,
+.navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:active,
+.navbar .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a {
+    color: #97b2ba !important;
+    border-top: 2px solid black !important;
+    background-color: white;
 }
 
+.navbar-nav {
+    float: right;
+    margin: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 /***End Navigation*/
 /**Start Design Packaget **/
@@ -311,12 +352,6 @@ hr {
 .navbar .navbar-nav > li > a {
     color: black;
 }
-
-    .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:active, .navbar .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .active > a {
-        color: #97b2ba !important;
-        border-top: 2px solid black !important;
-        background-color: white;
-    }
 
 
 .button {
@@ -420,10 +455,7 @@ img {
     width:100%;
     float:left
 }
-.x-gap {
-    margin: 0 0 1.313em;
-    border-color: transparent;
-}
+
 .center-text{
     text-align:center;
 }

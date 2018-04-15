@@ -7,6 +7,7 @@
     var rootNode = Umbraco.TypedContentAtRoot();
     var BloghotItems = rootNode.DescendantsOrSelf("blogItem").Where(x => x.GetPropertyValue<bool>("blogHot")).ToList();
     var bannerItem = rootNode.DescendantsOrSelf("banner").First();
+
 }
 
 <!--Start slider-->
@@ -15,21 +16,21 @@
         <!-- Loading Screen -->
 
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1200px;height:882px;overflow:hidden;">
-            
-                @if (bannerItem != null)
+
+            @if (bannerItem != null)
+            {
+                var listID = bannerItem.GetPropertyValue<string>("gallery").Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+                foreach (var id in listID)
                 {
-                    var listID = bannerItem.GetPropertyValue<string>("gallery").Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
-                    foreach (var id in listID)
+                    var image = Umbraco.TypedMedia(id);
+                    var url = String.Empty;
+                    if (image != null)
                     {
-                        var image = Umbraco.TypedMedia(id);
-                        var url = String.Empty;
-                        if (image != null)
-                        {
-                            url = image.Url;
-                        }
-                 <div><img data-u="image" src="@url" /></div>
+                        url = image.Url;
                     }
+                    <div><img data-u="image" src="@url" /></div>
                 }
+            }
 
         </div>
         <!-- Thumbnail Navigator -->
@@ -38,8 +39,15 @@
     <script type="text/javascript">jssor_1_slider_init();</script>
 
 </div>
-
-<hr>
+<!--startHr-->
+<div class="x-content-band vc" style="background-color: #eee;padding-top: 0px;padding-bottom: 0px;">
+    <div class="x-container wpb_row">
+        <div>
+            <hr class="x-gap" style="margin: 3em 0 0 0;">
+        </div>
+    </div>
+</div>
+<!--End Hr-->
 <!--End slider-->
 <!-- Start ROOM DESIGN PACKAGES-->
 <div id="DESIGN PACKAGES" class="body" style="height:800px;width:auto">
@@ -133,16 +141,24 @@
                         </a>
                     </li>
                 }
-
             </ul>
         </div>
     </div>
     <div style="margin-top:15px;margin-bottom:15px;">
-        <button type="button" href="#" class="button" style="margin:0 auto">READ MORE POSTS</button>
+
+        <button type="button" href="/blog/" class="button" style="margin:0 auto">READ MORE POSTS</button>
     </div>
 </div>
 <!--End LATEST BLOG POSTS-->
-<hr style="margin: 5em 0 0 0;" />
+<!--startHr-->
+<div class="x-content-band vc" style="background-color: #eee;padding-top: 0px;padding-bottom: 0px;">
+    <div class="x-container wpb_row">
+        <div>
+            <hr class="x-gap" style="margin: 3em 0 0 0;">
+        </div>
+    </div>
+</div>
+<!--End Hr--
 <!--Start LOOKING FOR SOLUTIONS-->
 <div id="SOLUTIONS" style="width:1200px;height:579px;margin:0 auto">
     <div class="text-center" style="margin-top: 73px; margin-bottom: 73px">
@@ -177,7 +193,16 @@
         </a>
     </div>
 </div>
-<hr>
+<!--End LOOKING FOR SOLUTIONS-->
+<!--startHr-->
+<div class="x-content-band vc" style="background-color: #eee;padding-top: 0px;padding-bottom: 0px;">
+    <div class="x-container wpb_row">
+        <div>
+            <hr class="x-gap" style="margin: 3em 0 0 0;">
+        </div>
+    </div>
+</div>
+<!--End Hr-->
 <!--End LOOKING FOR SOLUTIONS-->
 <!-- Star OUR FOUR STEP PROCESS-->
 <div id="STEP PROCESS" class="container-fluid">
@@ -266,7 +291,15 @@
         </div>
     </div>
 </div>
-<hr>
+<!--startHr-->
+<div class="x-content-band vc" style="background-color: #eee;padding-top: 0px;padding-bottom: 0px;">
+    <div class="x-container wpb_row">
+        <div>
+            <hr class="x-gap" style="margin: 3em 0 0 0;">
+        </div>
+    </div>
+</div>
+<!--End Hr-->
 <!--End OUR FOUR STEP PROCESS-->
 <!--Start DISCOVER WHAT’S POSSIBLE-->
 <div id="POSSIBLE">

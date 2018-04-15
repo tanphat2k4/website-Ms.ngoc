@@ -13,11 +13,14 @@
             target: '+=1',
             autostart: true
         });
-    $(".tabButton").each(function () {
-        $(this).click(function () {
-            $(".tabButton").removeClass("current");
-            $("#projectDetail").html($(this).siblings(".tabContent").html());
-            $(this).addClass("current");
-        });
+    // gan active
+    var url = window.location.href;
+    $("menu").find("a").each(function(){
+        var $self = $(this);
+        if (url.indexOf($self.attr("href")) > 0) {
+           // $("#menu").find("li").removeClass("menu_active");
+            $self.closest("li").addClass("menu_active");
+        }
     });
+
 });
