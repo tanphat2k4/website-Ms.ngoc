@@ -543,11 +543,11 @@
     <Content Include="Views\PackagesPage.cshtml" />
     <Content Include="Views\PortfolioPage.cshtml" />
     <Content Include="Views\ProcessPage.cshtml" />
-    <Content Include="Views\Search.cshtml" />
     <Content Include="Views\Portfolio_item.cshtml" />
     <Content Include="Views\Blog_item.cshtml" />
     <Content Include="Views\cONTACTS\ContactsPage.cshtml" />
     <Content Include="Views\cONTACTS\Master.cshtml" />
+    <Content Include="Views\ImprovePacketForm.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -3,7 +3,10 @@
     Layout = "Master.cshtml";
 }
 
-@* the fun starts here *@
+@{ 
+    var rootNode = Umbraco.TypedContentAtRoot();
+    var aboutItem = rootNode.DescendantsOrSelf("aBOUTUS").First();
+}
 
 <body>
     
@@ -12,9 +15,9 @@
         <div class="container-fluid" id="path" style="height:45px;width: 1200px;margin-top:80px">
             <div id="groupPath">
                 <ul style="list-style:none">
-                    <li><a href="#"><div style="color:black"><i class="fa fa-home"></i></div></a></li>
-                    <li><a href="#"><div ><i class="fa fa-angle-right"></i></div></a></li>
-                    <li><p>Aboutus</p></li>
+                    <li><a href="/"><div style="color:black"><i class="fa fa-home"></i></div></a></li>
+                    <li><div ><i class="fa fa-angle-right"></i></div></li>
+                    <li><a href="@aboutItem.Url"><p>Aboutus</p></a></li>
                 </ul>
             </div>
         </div>
@@ -26,20 +29,12 @@
             <span><h1 style="text-align:center">Personalised Expert Design Service for Everyone</h1></span>
         </div>
         <!--Content01-->
-        <div class="col-sm-4 col-sm-12">
-            <div class="text-center">
-                <img src="~/images/img_flower.jpg" />
-            </div>
-        </div>
-        <div class="clearfix"></div>
-        <div class="col-sm-8 col-sm-12" style="text-align:left; width:65.33332%;float:right">
-            <span>
-                Krikla is a professional design firm dedicated to creating personalised design solutions for every client, budget and or style.
-
-                We believe good design doesn’t have to be expensive and should be accessible to everyone.
-
-                Whatever your projects: small, one room, a city apartment or country home we understand the importance of individualized design.
-            </span>
+        <div class="entry-content content">
+                <div class="x-selection" style="margin: 0px;padding: 0px 0px;background-color: transparent;">
+                    <div class="container max width" style="margin: 0px auto;padding: 0px;">
+                        @Html.Raw((aboutItem.GetPropertyValue<string>("aboutUsItem")))
+                    </div>
+                </div>
         </div>
         <div class="clearfix"></div>
     </div>

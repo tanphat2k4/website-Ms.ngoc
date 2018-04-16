@@ -7,7 +7,7 @@
     var rootNode = Umbraco.TypedContentAtRoot();
     var BloghotItems = rootNode.DescendantsOrSelf("blogItem").Where(x => x.GetPropertyValue<bool>("blogHot")).ToList();
     var bannerItem = rootNode.DescendantsOrSelf("banner").First();
-
+    var improveItem = rootNode.DescendantsOrSelf("improvePacketForm").First();
 }
 
 <!--Start slider-->
@@ -66,7 +66,7 @@
                             <img class="aligncenter size-full wp-image-5253" src="https://krikla.com/wp-content/uploads/2018/02/krikla-design-service-250.png" alt="Furnish - Interior design services by Krikla" width="300" height="520">
                         </div>
                         <div class="text-center" style="margin-top:23px">
-                            <button class="btn btn-lg" href="#">GET A QUOTE </button>
+                            <button  class="btn btn-lg"><a href="@improveItem.Url">GET A QUOTE</a></button>
                         </div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                             <img class="aligncenter size-full wp-image-5254" src="https://krikla.com/wp-content/uploads/2018/02/krikla-design-service-350.png" alt="Improve - Interior design services by Krikla" width="300" height="520">
                         </div>
                         <div class="text-center" style="margin-top:23px">
-                            <button class="btn btn-lg" href="#">GET A QUOTE</button>
+                            <button class="btn btn-lg"><a href="@improveItem.Url">GET A QUOTE</a></button>
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                             <img class="aligncenter size-full wp-image-5255" src="https://krikla.com/wp-content/uploads/2018/02/krikla-design-service-600.png" alt="Refurbish - Interior design services by Krikla" width="300" height="520">
                         </div>
                         <div class="text-center" style="margin-top:23px">
-                            <button class="btn btn-lg" href="#">GET A QUOTE </button>
+                            <button class="btn btn-lg"><a href="@improveItem.Url">GET A QUOTE</a></button>
                         </div>
                     </div>
                 </div>
@@ -191,7 +191,7 @@
                                                 <div class="tp-loop-wrap"style="position:absolute;display:block;">
                                                     <div class="tp-mask-wrap" style="position: absolute; display: block; overflow: visible;">
                                                         <div class="tp-caption   tp-resizeme" style="z-index: 6 ;min-width: 750px;max-width: 750px;white-space: normal;font-size: 18px;line-height: 26px;font-weight: 400;color: rgb(2, 2, 2);font-family: sans-serif;visibility: inherit;transition: none;text-align: inherit;border-width: 0px;margin: 0px; padding: 0px;letter-spacing: 0px;min-height: 0px; max-height: none;opacity: 1;transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);transform-origin: 50% 50% 0px;">
-                                                            "We highly recommend Krikla if you are looking for elegant and stylish decor, as well as fast and affordable service. Our newly built flat in Fulham is our second home and we didn't want to spend a fortune on furniture and interior design service. We wished to move as quickly as possible - in fact, as soon as we received the key from the apartment. Krikla's approach is amazingly efficient and their package perfectly matched our needs."
+                                                            We highly recommend Krikla if you are looking for elegant and stylish decor, as well as fast and affordable service. Our newly built flat in Fulham is our second home and we didn't want to spend a fortune on furniture and interior design service. We wished to move as quickly as possible - in fact, as soon as we received the key from the apartment. Krikla's approach is amazingly efficient and their package perfectly matched our needs.
                                                         </div>
 
                                                     </div>

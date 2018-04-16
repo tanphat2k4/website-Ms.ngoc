@@ -127,6 +127,8 @@ label {
 
 a {
     color: #97b2ba;
+    text-decoration:none;
+    text-transform:uppercase;
 }
 
 ul {
@@ -150,7 +152,7 @@ h1 {
     -webkit-margin-after: 0.67em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-    font-weight: bold;
+    
 }
 form {
     margin: 0 0 1.313em;
@@ -165,6 +167,12 @@ p {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
+li {
+    line-height: 1.7;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
 /*hr*/
 .x-content-band {
     margin: 0 0 1.313em;
@@ -179,9 +187,15 @@ p {
 .x-container {
     margin: 0 auto;
 }
-.x-column.last, .x-column:last-of-type {
-    margin-right:0;
-}
+    .x-container.max {
+        max-width: 1200px;
+    }
+    .x-container.width {
+        width: 90%;
+    }
+    .x-column.last, .x-column:last-of-type {
+        margin-right: 0;
+    }
 .x-column.x-1-1 {
     width: 100%;
 }
@@ -888,6 +902,7 @@ a:-webkit-any {
 }
 .entry-content {
     margin-top: 1.25em;
+    margin-top: 0;
 }
 /**Coment*/
 .comment-area {
@@ -979,3 +994,82 @@ input[type="submit"] {
 }
 
 /***End Blog item***/
+/***Start ImprovePacketForm***/
+.x-content-band {
+    margin: 0 0 1.313em;
+    padding: 40px 0;
+}
+    .x-content-band.vc .wpb_row, .x-content-band.vc .wpb_content_element {
+        margin-bottom: 0;
+    }
+    .x-content-band .x-container {
+        position: relative;
+    }
+.x-column.last, .x-column:last-of-type {
+    margin-right: 0;
+}
+.x-column.x-1-1 {
+    width: 100%;
+}
+.x-column {
+    float: left;
+    margin-right: 4%;
+}
+.wizard, .tabcontrol {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.wizard > .steps {
+        position: relative;
+        display: block;
+        width: 100%;
+    }
+    .wizard > .steps > ul > li, .wizard > .actions > ul > li {
+        float: left;
+    }
+    .wizard > .steps > ul > li {
+        width: 25%;
+    }
+    .wizard ul > li, .tabcontrol ul > li {
+        display: block;
+        padding: 0;
+    }
+    #forms_row .wizard > .steps .current a, .wizard > .steps .current a:active, #forms_row .wizard > .steps .current a:hover {
+        background: #97b2ba;
+        color: #fff;
+        cursor: default;
+        border: 1px solid #97b2ba;
+    }
+    .wizard > .steps a, .wizard > .steps a:hover, .wizard > .steps a:active {
+        display: block;
+        width: auto;
+        margin: 0 0.5em 0.5em;
+        padding: 1em 1em;
+        text-decoration: none;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+#forms_row .wizard > .steps .current-info.audible {
+    font-size: 1.429em;
+}
+.wizard > .steps .current-info, .tabcontrol > .steps .current-info {
+    position: absolute;
+    left: -999em;
+}
+#forms_row .wizard > .steps .number {
+    display: none;
+}
+.wizard > .steps .number {
+    font-size: 1.429em;
+}
+.x-main.full {
+    float: none;
+    display: block;
+    width: auto;
+}
+.x-main {
+    position: relative;
+}
+/***End ImprovePacketForm***/
