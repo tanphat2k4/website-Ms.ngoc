@@ -6,6 +6,7 @@
 @{
     var rootNode = Umbraco.TypedContentAtRoot();
     var BloghotItems = rootNode.DescendantsOrSelf("blogItem").Where(x => x.GetPropertyValue<bool>("blogHot")).ToList();
+    var Blog = rootNode.DescendantsOrSelf("bLog").First();
     var bannerItem = rootNode.DescendantsOrSelf("banner").First();
     var improveItem = rootNode.DescendantsOrSelf("improvePacketForm").First();
 }
@@ -129,15 +130,15 @@
                     }
 
                     <li class="@(BloghotItems.IndexOf(item) % 3 == 1 ? "center" : "")">
-                        <a style="opacity:1" class=".x-recent-posts a.x-recent-post4" href="@item.Url">
-                            <article>
-                                <div class="entry-wrap">
-                                    <div class="x-recent-posts-img"><img src="@url" /></div>
-                                    <div class="x-recent-posts-content" style="height: 87px;">
-                                        <h3 class="h-recent-posts">@item.Name</h3>
+                        <a style="opacity:1" href="@item.Url">
+
+                                <div class="entry-wrap" style="width:35%;height:296.77px">
+                                    <div class="x-recent-posts-img" style="width:100%"><img src="@url" /></div>
+                                    <div class="x-recent-posts-content center-text" style="font-size:18px;color:black;height: 108px;padding-top: 10px;">
+                                        <h1 class="h-recent-posts" style=" font-size: 18px;padding-bottom: 10px;padding-left: 5px;padding-right: 3px;">@item.Name</h1>
                                     </div>
                                 </div>
-                            </article>
+                           
                         </a>
                     </li>
                 }
@@ -146,7 +147,7 @@
     </div>
     <div style="margin-top:15px;margin-bottom:15px;">
 
-        <button type="button" href="/blog/" class="button" style="margin:0 auto">READ MORE POSTS</button>
+        <button class="button" style="margin:0 auto"><a  style="color:white"href="@Blog.Url">READ MORE POSTS</a></button>
     </div>
 </div>
 <!--End LATEST BLOG POSTS-->

@@ -482,11 +482,12 @@ hr {
     margin-left: 450px;
 }
 
-    .button:hover {
+.button:hover {
         background-color: white;
         color: #97b2ba;
         border-color: #97b2ba;
         cursor:pointer;
+        text-decoration:none;
     }
 /**footer*/
 
@@ -593,7 +594,7 @@ img {
     position: relative;
     background: center center/cover no-repeat;
     border-radius: 2px;
-    width: 22%;
+    width: 100%;
 }
 x-recent-posts-content {
     padding: 10px 5px;
@@ -632,9 +633,10 @@ x-recent-posts-content {
 
 #Blogpost li {
     float: left;
-    margin-right: 20px;
-    border: 1px solid #e9e5e5;
+    margin-right: -566px;
+    display: initial;
 }
+
 /***End Blog Hot***/
 
 /*item-portfolio*/
@@ -1073,3 +1075,11 @@ input[type="submit"] {
     position: relative;
 }
 /***End ImprovePacketForm***/
+.x-recent-posts article.hentry > .entry-wrap {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+}
