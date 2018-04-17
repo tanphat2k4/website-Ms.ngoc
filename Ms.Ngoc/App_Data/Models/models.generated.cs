@@ -19,8 +19,8 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "47d0d83c2769bf2f")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.8")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "d402a4a99095ec86")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.6")]
 
 namespace Umbraco.Web.PublishedContentModels
 {
@@ -47,6 +47,51 @@ namespace Umbraco.Web.PublishedContentModels
 		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<HOme, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Banner
+		///</summary>
+		[ImplementPropertyType("banner")]
+		public IEnumerable<IPublishedContent> Banner
+		{
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("banner"); }
+		}
+
+		///<summary>
+		/// Discover
+		///</summary>
+		[ImplementPropertyType("discover")]
+		public IEnumerable<IPublishedContent> Discover
+		{
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("discover"); }
+		}
+
+		///<summary>
+		/// Packages
+		///</summary>
+		[ImplementPropertyType("packages")]
+		public IEnumerable<IPublishedContent> Packages
+		{
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("packages"); }
+		}
+
+		///<summary>
+		/// Process
+		///</summary>
+		[ImplementPropertyType("process")]
+		public IEnumerable<IPublishedContent> Process
+		{
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("process"); }
+		}
+
+		///<summary>
+		/// Solution
+		///</summary>
+		[ImplementPropertyType("solution")]
+		public IEnumerable<IPublishedContent> Solution
+		{
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("solution"); }
 		}
 	}
 
@@ -499,9 +544,9 @@ namespace Umbraco.Web.PublishedContentModels
 		/// possible
 		///</summary>
 		[ImplementPropertyType("possible")]
-		public IHtmlString Possible
+		public IEnumerable<IPublishedContent> Possible
 		{
-			get { return this.GetPropertyValue<IHtmlString>("possible"); }
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("possible"); }
 		}
 	}
 

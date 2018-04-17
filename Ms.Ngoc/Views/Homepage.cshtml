@@ -5,40 +5,24 @@
 
 @{
     var rootNode = Umbraco.TypedContentAtRoot();
+    var currentNode = UmbracoContext.Current.PublishedContentRequest.PublishedContent;
     var BloghotItems = rootNode.DescendantsOrSelf("blogItem").Where(x => x.GetPropertyValue<bool>("blogHot")).ToList();
     var Blog = rootNode.DescendantsOrSelf("bLog").First();
-    var bannerItem = rootNode.DescendantsOrSelf("banner").First();
     var improveItem = rootNode.DescendantsOrSelf("improvePacketForm").First();
+    var bannerArry = currentNode.GetPropertyValue<string>("banner").Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+    var discoverArray = currentNode.GetPropertyValue<string>("discover").Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
 }
 
 <!--Start slider-->
 <div id="silder">
     <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1200px;height:882px;overflow:hidden;visibility:hidden;">
         <!-- Loading Screen -->
-
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1200px;height:882px;overflow:hidden;">
 
-            @if (bannerItem != null)
-            {
-                var listID = bannerItem.GetPropertyValue<string>("gallery").Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
-                foreach (var id in listID)
-                {
-                    var image = Umbraco.TypedMedia(id);
-                    var url = String.Empty;
-                    if (image != null)
-                    {
-                        url = image.Url;
-                    }
-                    <div><img data-u="image" src="@url" /></div>
-                }
-            }
-
+            <div><img data-u="image" src="" /></div>
         </div>
-        <!-- Thumbnail Navigator -->
-
+    <!-- Thumbnail Navigator -->
     </div>
-    <script type="text/javascript">jssor_1_slider_init();</script>
-
 </div>
 <!--startHr-->
 <div class="x-content-band vc" style="background-color: #eee;padding-top: 0px;padding-bottom: 0px;">
@@ -114,40 +98,37 @@
         <hr class="x-gap " style="margin: 3em 0 0 0;" />
 
     </div>
-
-    <!--sliderBlogPost-->
     <div class="clearfix"></div>
-    <div id="Blogpost_wrapper" class="blogpost-column">
-        <div id="Blogpost">
+    <div id="jcarousel_wrapper">
+        <div id="jcarousel">
             <ul>
                 @foreach (var item in BloghotItems)
-                {
-                    var thumbnail = Umbraco.TypedMedia(item.GetPropertyValue<int>("thumbnail"));
-                    var url = String.Empty;
-                    if (thumbnail != null)
-                    {
-                        url = thumbnail.Url;
-                    }
+    {
+        var thumbnail = Umbraco.TypedMedia(item.GetPropertyValue<int>("thumbnail"));
+        var url = String.Empty;
+        if (thumbnail != null)
+        {
+            url = thumbnail.Url;
+        }
+            <li class="@(BloghotItems.IndexOf(item) % 3 == 1 ? "center" : "")">
+                <a style="opacity:1" href="@item.Url">
 
-                    <li class="@(BloghotItems.IndexOf(item) % 3 == 1 ? "center" : "")">
-                        <a style="opacity:1" href="@item.Url">
+                    <div class="entry-wrap" style="width:35%;height:296.77px">
+                        <div class="x-recent-posts-img" style="width:100%"><img src="@url" /></div>
+                        <div class="x-recent-posts-content center-text" style="font-size:18px;color:black;height: 108px;padding-top: 10px;">
+                            <h1 class="h-recent-posts" style=" font-size: 18px;padding-bottom: 10px;padding-left: 5px;padding-right: 3px;">@item.Name</h1>
+                        </div>
+                    </div>
 
-                                <div class="entry-wrap" style="width:35%;height:296.77px">
-                                    <div class="x-recent-posts-img" style="width:100%"><img src="@url" /></div>
-                                    <div class="x-recent-posts-content center-text" style="font-size:18px;color:black;height: 108px;padding-top: 10px;">
-                                        <h1 class="h-recent-posts" style=" font-size: 18px;padding-bottom: 10px;padding-left: 5px;padding-right: 3px;">@item.Name</h1>
-                                    </div>
-                                </div>
-                           
-                        </a>
-                    </li>
-                }
+                </a>
+            </li>
+}
             </ul>
         </div>
     </div>
     <div style="margin-top:15px;margin-bottom:15px;">
 
-        <button class="button" style="margin:0 auto"><a  style="color:white"href="@Blog.Url">READ MORE POSTS</a></button>
+        <button class="button button_01" style="margin:0 auto"><a style="color:white" href="@Blog.Url">READ MORE POSTS</a></button>
     </div>
 </div>
 <!--End LATEST BLOG POSTS-->
@@ -349,6 +330,7 @@
     <div style="width:1200px;height:30px;margin:0 auto;font-size:18px;text-align:center; margin-top:10px;margin-bottom:10px">
         <p>We’ve worked with some wonderful clients. We’ve transformed empty spaces with inspirational and functional design. It’s all about the collaboration. Work with Krikla interior design, and together we’ll create something that truly shines.</p>
     </div>
+
     <div class="container">
         <br>
         <div id="myCarousel02" class="carousel slide" data-ride="carousel">
@@ -361,22 +343,25 @@
             </ol>
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img src="~/images/bann1.jpg" alt="Chania" width="460" height="345">
-                </div>
-                <div class="item">
-                    <img src="~/images/bann2.jpg" alt="Chania" width="460" height="345">
+                <ul>
+                      @foreach (var id in discoverArray )
+                     {
+                    var image = Umbraco.TypedMedia(id);
+                    var url = String.Empty;
+                    if (image != null)
+                    {
+                        url = image.Url;
+                    }
 
-                </div>
-                <div class="item">
-                    <img src="~/images/bann3.jpg" alt="Flower" width="460" height="345">
+                <li>
+                    <div class="item  @(discoverArray.IndexOf(id) == 1 ? "active" : "")">
+                        <img src="@url" alt="Empty" width="460" height="345">
+                    </div>
+                </li>
 
-                </div>
-                <div class="item">
-                    <img src="~/images/cinqueterre.jpg" alt="Flower" width="460" height="345">
-
-                </div>
-
+                    }
+                </ul>
+              
             </div>
             <!-- Left and right controls -->
             <a class="left carousel-control" href="#myCarousel02" role="button" data-slide="prev">

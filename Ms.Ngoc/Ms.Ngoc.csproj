@@ -253,9 +253,6 @@
     <Content Include="config\imageprocessor\processing.config" />
     <Content Include="config\imageprocessor\cache.config" />
     <Content Include="App_Plugins\ModelsBuilder\package.manifest" />
-    <Content Include="css\Slider\jquery.galleryview-3.0-dev.css" />
-    <Content Include="css\Slider\js-image-slider.css" />
-    <Content Include="css\Slider\slider.css" />
     <Content Include="css\Style.css" />
     <Content Include="images\001.jpg" />
     <Content Include="images\002.jpg" />
@@ -2110,6 +2107,7 @@
     <Folder Include="App_Data\NuGetBackup\20180314-163906\Umbraco_Client\" />
     <Folder Include="App_Data\packages\created\" />
     <Folder Include="App_Data\TEMP\Install\" />
+    <Folder Include="css\Slider\" />
     <Folder Include="fonts\" />
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="Views\MacroPartials\" />

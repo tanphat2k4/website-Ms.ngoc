@@ -480,9 +480,10 @@ hr {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 450px;
+    text-decoration:none;
 }
 
-.button:hover {
+.button_01:hover {
         background-color: white;
         color: #97b2ba;
         border-color: #97b2ba;
@@ -612,30 +613,6 @@ x-recent-posts-content {
     white-space: nowrap;
 }
 
-#Blogpost_wrapper {
-    margin: 20px auto;
-    position: relative;
-}
-
-#Blogpostt {
-    position: relative;
-    overflow: hidden;
-    width: 1008px;
-}
-
-#Blogpost ul {
-    width: 20000em;
-    position: relative;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-#Blogpost li {
-    float: left;
-    margin-right: -566px;
-    display: initial;
-}
 
 /***End Blog Hot***/
 
@@ -1083,3 +1060,29 @@ input[type="submit"] {
     border-radius: 0;
     box-shadow: none;
 }
+/***Start Jcarousel Sponsor***/
+#jcarousel_wrapper {
+    margin: 20px auto;
+    position: relative;
+}
+
+#jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+}
+
+    #jcarousel ul {
+        width: 20000em;
+        position: relative;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #jcarousel li {
+        float: left;
+        margin-right: -439px;
+        border: 1px solid white;
+    }
+/***End Jcarousel Sponsor***/
