@@ -5,6 +5,8 @@
 
 @{
     <!--lay data tu Umbraco-->
+    var rootNode = Umbraco.TypedContentAtRoot();
+    var Blog = rootNode.DescendantsOrSelf("bLog").First();
     var currentNode = UmbracoContext.Current.PublishedContentRequest.PublishedContent;
     var thumbnail = currentNode.GetPropertyValue<string>("thumbnail").Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
 }
@@ -17,7 +19,7 @@
                 <ul style="list-style:none;margin-bottom: 6px;margin-left: -53px;">
                     <li style="font-size:18px"><a href="/"><div style="color:black"><i class="fa fa-home"></i></div></a></li>
                     <li style="font-size:18px;margin-left: -7px;"><a href="#"><div><i class="fa fa-angle-right"></i></div></a></li>
-                    <li style="font-size:18px;margin-left: -7px;padding-top: 0;"><a href="@currentNode.Url"><p>BLOG</p></a></li>
+                    <li style="font-size:18px;margin-left: -7px;padding-top: 0;"><a href="@Blog.Url"><p>BLOG</p></a></li>
                     <li style="font-size:18px;margin-left: -7px;"><a href="#"><div><i class="fa fa-angle-right"></i></div></a></li>
                     <li style="font-size:18px;margin-left: -7px;padding-top: 0;"><p style="font-size: 12px;margin-top: 6px;">@currentNode.Name</p></li>
                 </ul>
@@ -28,7 +30,7 @@
     <!--End Path-->
     <div class="clearfix"></div>
     <!--left-->
-    <div class="main left" role="main">
+    <div class="main left" role="main"style="margin-top: 50px;margin-left: 5px;">
         <article class="hentry has-post-thumbnail">
             <div class="entry-featured">
                 @foreach (var id in thumbnail)
@@ -46,7 +48,7 @@
 
             </div>
             <div class="entry-wrap">
-                <header class="entry-header">
+                <header class="entry-header" style="padding-top: 50px;padding-left: 50px;">
                     <h1 class="entry-title">@currentNode.Name</h1>
                 </header>
                 <div class="entry-content content">
@@ -67,7 +69,7 @@
                     Leave a Reply
                 </h3>
                 <form action="" method="post" id="commentform" class="comment-form">
-                    <p class="comment-notes">
+                    <p class="comment-notes" style="font-style: italic;margin-left: 20px;">
                         <span id="email-note">
                             Your email address will not be published.
                         </span>
@@ -102,7 +104,7 @@
     </div>
 
     <!--right-->
-    <aside class="sidebar right" role="complementary">
+    <aside class="sidebar right" role="complementary" style="margin-top: 50px;margin-left: 4px;">
         <div id="categories-2" class="widget widget_categories">
             <p><h4 class="h-widget"><i class="fa fa-bookmark"></i> CATEGORIES</h4></p>
             <ul>

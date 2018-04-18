@@ -25,16 +25,22 @@
     <!--End Path-->
     <!--StartContent-->
     <div id="content" class="container">
-        <div class="text-center">
+        <div class="text-center" style="display: inline-block;position:  relative;background-color:  white;margin-top: 35px;">
             <span><h1 style="text-align:center">Personalised Expert Design Service for Everyone</h1></span>
         </div>
+        <!--doubleHR-->
+        <div style="width:100%;height:1px;border-bottom: 1px solid #f0f0f0;margin-top: -40px;display: inherit;">
+            <div style="width:100%;height:1px;border-bottom:  1px solid #f0f0f0;display: inherit;padding-top: 3px;"></div>
+        </div>
+        
+        <div class="clearfix"></div>
         <!--Content01-->
         <div class="entry-content content">
-                <div class="x-selection" style="margin: 0px;padding: 0px 0px;background-color: transparent;">
-                    <div class="container max width" style="margin: 0px auto;padding: 0px;">
-                        @Html.Raw((aboutItem.GetPropertyValue<string>("aboutUsItem")))
-                    </div>
+            <div class="x-selection" style="margin: 0px;padding: 0px 0px;background-color: transparent;">
+                <div class="container max width" style="margin: 0px auto;padding: 0px;">
+                    @Html.Raw((aboutItem.GetPropertyValue<string>("aboutUsItem")))
                 </div>
+            </div>
         </div>
         <div class="clearfix"></div>
     </div>

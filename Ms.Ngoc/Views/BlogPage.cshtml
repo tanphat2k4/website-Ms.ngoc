@@ -63,7 +63,7 @@
                     endItem = totalPages;
                 }
                 <div class="pagingWrapper">
-                    <ul class="paging">
+                    <ul class="paging" style="margin: 0 auto;padding-left: 1px;padding-top: 10px;">
                         @if (page > 1)
                         {
                             <li class="number"><a href="?page=@(page - 1)" title="@(page - 1)"><<</a></li>
@@ -91,7 +91,7 @@
         </div>
         <!--End paging-->
         <!--left-->
-        <div class="col-sm-8 col-xs-12">
+        <div class="col-sm-8 col-xs-12"style="margin-left: -56px">
             <div>
                 <ul>
                     @foreach (var item in listItems)
@@ -104,13 +104,13 @@
                     }
                     <li>
                         <div style="width:67.536945%; margin-left:5px;">
-                            <div style="box-shadow: 0 0.15em 0.35em 0 rgba(0,0,0,0.135);margin-bottom:60px;width:810px;height:auto">
+                            <div style="box-shadow: 0 0.15em 0.35em 0 rgba(0,0,0,0.135);margin-bottom:60px;width:810px;height:auto;border-radius: 6px;">
                                 <div><a href="@item.Url"><img src="@url" style="width:810px;height:780px" /></a></div>
                                 <div style="margin:0;padding:0; text-align:center;width:810px;height:auto;text-transform:uppercase;font-size:15px;font-style:normal;padding: 29px 6.5% 35px;">
-                                    <h2><a href="@item.Url">@item.Name</a></h2>
-                                    <span>@(item.GetPropertyValue<string>("subjectMatter"))</span>
+                                    <h2><a href="@item.Url"style="text-decoration:none;font-size: 30px;">@item.Name</a></h2>
+                                    <span style="font-size: 16px;display: inline-block;text-transform: lowercase;padding-right: 0;">@(item.GetPropertyValue<string>("subjectMatter"))</span>
                                     <br />
-                                    <a href="@item.Url" style="color:black;font-weight:bold;font-size:10px;font-family:sans-serif;width:810px;height:auto">Read More</a>
+                                    <a href="@item.Url" style="color:black;font-weight:bold;font-size: 12px;font-family:sans-serif;width:810px;height:auto;margin-top: 0px;text-decoration:underline;font-style:italic;font-weight:400;">Read More</a>
                                 </div>
                             </div>
                         </div>
