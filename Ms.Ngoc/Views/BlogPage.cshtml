@@ -48,45 +48,56 @@
     <!--End Path-->
     <!--Start Content-->
     <div>
-        <div class="text-center" style="margin-top:30px;margin-bottom:30px;font-size:30px;font-weight:400">
-            <p>DESIGN BLOG</p>
+        <div class="text-center">
+            <div style="display: inline-block;position:  relative;background-color:  white;margin-top: 35px;margin-left: -73px;">
+                <span><h1 style="text-align:center">DESIGN BLOG</h1></span>
+
+            </div>
+            <!--Start doubleHR-->
+            <div style="width:100%;height:1px;border-bottom: 1px solid #f0f0f0;margin-top: -40px;display: inherit;">
+                <div style="width:100%;height:1px;border-bottom:  1px solid #f0f0f0;display: inherit;padding-top: 3px;"></div>
+            </div>
+
+            <div class="clearfix"></div>
+            <!--End doubleHR-->
+            <div class="clearfix"></div>
             <!--Start paging-->
-            <div>
+            <div  style="margin-top: 35px; margin-bottom:35px">
                 @if (totalPages > 1)
-                 {
-                        const int itemsPerGroup = 6;
-                        var currentGroup = (int)Math.Ceiling((double)page / itemsPerGroup);
-                        int startItem = (currentGroup - 1) * itemsPerGroup;
-                        int endItem = startItem + itemsPerGroup;
-                        if (endItem > totalPages)
+        {
+            const int itemsPerGroup = 6;
+            var currentGroup = (int)Math.Ceiling((double)page / itemsPerGroup);
+            int startItem = (currentGroup - 1) * itemsPerGroup;
+            int endItem = startItem + itemsPerGroup;
+            if (endItem > totalPages)
+            {
+                endItem = totalPages;
+            }
+            <div class="pagingWrapper">
+                <ul class="paging" style="margin: 0 auto;padding-left: 1px;padding-top: 10px;">
+                    @if (page > 1)
+            {
+                <li class="number"><a href="?page=@(page - 1)" title="@(page - 1)"><<</a></li>
+    }
+                    @for (int p = startItem; p < endItem; p++)
+            {
+                string selected = (p + 1 == page) ? "selected" : String.Empty;
+                if (selected.Trim().Length != 0)
                 {
-                    endItem = totalPages;
-                }
-                <div class="pagingWrapper">
-                    <ul class="paging" style="margin: 0 auto;padding-left: 1px;padding-top: 10px;">
-                        @if (page > 1)
-                        {
-                            <li class="number"><a href="?page=@(page - 1)" title="@(page - 1)"><<</a></li>
-                         }
-                        @for (int p = startItem; p < endItem; p++)
-                             {
-                                string selected = (p + 1 == page) ? "selected" : String.Empty;
-                                if (selected.Trim().Length != 0)
-                                {
-                                    <li class="number @selected"><a href="javascript:void(0);" title="@(p + 1)">@(p + 1)</a></li>
-                                 }
-                                    else
-                                {
-                                    <li class="number @selected"><a href="?page=@(p + 1)" title="@(p + 1)">@(p + 1)</a></li>
-                                }
-                        }
-                        @if (page < totalPages)
-                         {
-                        <li class="number"><a href="?page=@(page + 1)" title="@(page + 1)">>></a></li>
-                        }
-                    </ul>
-                </div>
+                    <li class="number @selected"><a href="javascript:void(0);" title="@(p + 1)">@(p + 1)</a></li>
         }
+        else
+        {
+            <li class="number @selected"><a href="?page=@(p + 1)" title="@(p + 1)">@(p + 1)</a></li>
+}
+}
+                    @if (page < totalPages)
+            {
+                <li class="number"><a href="?page=@(page + 1)" title="@(page + 1)">>></a></li>
+    }
+                </ul>
+            </div>
+}
             </div>
         </div>
         <!--End paging-->

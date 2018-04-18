@@ -437,6 +437,12 @@ hr {
 }
 /**Start Discover what..s**/
 /******************AboutUS****************************/
+.x-img-rounded, .x-img-rounded img {
+    border-radius: 6px;
+}
+.x-img {
+    margin-bottom: 1.313em;
+}
 #path01 {
     height: 37px;
     background-color: red;
