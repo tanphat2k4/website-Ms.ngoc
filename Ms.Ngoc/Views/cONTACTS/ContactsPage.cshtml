@@ -5,75 +5,77 @@
     Layout = "Master.cshtml";
 }
 
-@* the fun starts here *@
+@{
+    var currentNode = UmbracoContext.Current.PublishedContentRequest.PublishedContent;
+    var projects = currentNode.Children;
+}
 
 
-    <!--Start Path-->
-    <div class="path" style="height: 45px;width:100%;background-color:rgba(0,0,0,0.05)">
-        <div class="container-fluid" id="path" style="height:45px;width: 1200px;margin-top:80px">
-            <div id="groupPath">
-                <ul style="list-style:none">
-                    <li><a href="#"><div style="color:black"><i class="fa fa-home"></i></div></a></li>
-                    <li><a href="#"><div><i class="fa fa-angle-right"></i></div></a></li>
-                    <li><a href="#"><p>Contact</p></a></li>
-                </ul>
-            </div>
+<!--Start Path-->
+<div class="path" style="height: 45px;width:100%;border-bottom:0.5px solid rgba(0,0,0,0.23) ">
+    <div class="container-fluid" id="path" style="height:45px;width: 100%;margin-top:80px">
+        <div id="groupPath">
+            <ul style="list-style:none;margin-bottom: 6px;margin-left: -53px;">
+                <li><a href="/"><div style="color:black"><i class="fa fa-home"></i></div></a></li>
+                <li style="margin-left: -7px;"><a href="#"><div><i class="fa fa-angle-right"></i></div></a></li>
+                <li style="margin-left: -7px;padding-top: 0;"><a href="@currentNode.Url"><p>CONTACT</p></a></li>
+            </ul>
         </div>
     </div>
-    <!--End Path-->
-    <!--Start Content-->
-    <div>
-        <div class="text-center">
-            <p style="margin-top:30px;margin-bottom:30px;font-size:30px;font-family:sans-serif;">GET IN TOUCH</p>
-            <p>If you’re looking to improve your home, consider the Krikla solution.</p>
-            <p>We’ll transform your living space into something special with our excellent interior design service.</p>
-        </div>
-        <div class="col-sm-6 col-xs-12" style="margin-top:30px">
-            <p style="font-size:18px">SEND US YOUR MESSAGE USING THE FORM BELOW</p>
-            @using (Html.BeginForm())
-            {
-                <p id="name">
-                    <label>
-                        YOUR NAME(required)
-                    </label>
-                    <br />
-                    <input style="width:364px;height: 34px;" name="name" id="name" type="text" value size="30" maxlength="245" />
-                </p>
-                <p id="email">
-                    <label>
-                        YOUR EMAIL(required)
-                    </label>
-                    <br />
-                    <input style="width:364px;height: 34px;" name="email" id="email" type="text" value size="30" maxlength="245" />
-                </p>
-                <p id="subject">
-                    <label>
-                        Subject
-                    </label>
-                    <br />
-                    <input style="width:364px;height: 34px;" name="subject" id="subject" type="text" value size="30" maxlength="245" />
-                </p>
-                <p class="you_message">
-                    <label form="message" style="padding-bottom:10px">Your Message</label>
-                    <br />
-                    <textarea style="height:auto;width: 364px" id="message" name="message" cols="45" rows="8" maxlength="65525"></textarea>
-                </p>
-                <p>
-                    <input type="submit" class="button" value="Send" style="font-size:26px" onclick="return Validation();" />
-                </p>
-            }
-
-        </div>
-        <div class="col-sm-6 col-xs-12" style="margin-top:30px;font-size:18px">
-            <div>
-                <p>WHY USE KRIKLA INTERIOR DESIGN SERVICES?</p>
-
-            </div>
-
-        </div>
+</div>
+<!--End Path-->
+<!--Start Content-->
+<div>
+    <div class="text-center">
+        <p style="margin-top:30px;margin-bottom:30px;font-size:30px;font-family:sans-serif;">GET IN TOUCH</p>
+        <p>If you’re looking to improve your home, consider the Krikla solution.</p>
+        <p>We’ll transform your living space into something special with our excellent interior design service.</p>
     </div>
-    <!--End Content-->
+    <div class="col-sm-6 col-xs-12" style="margin-top:30px">
+        <p style="font-size:18px">SEND US YOUR MESSAGE USING THE FORM BELOW</p>
+        @using (Html.BeginForm())
+        {
+            <p id="name">
+                <label>
+                    YOUR NAME(required)
+                </label>
+                <br />
+                <input style="width:364px;height: 34px;" name="name" id="name" type="text" value size="30" maxlength="245" />
+            </p>
+            <p id="email">
+                <label>
+                    YOUR EMAIL(required)
+                </label>
+                <br />
+                <input style="width:364px;height: 34px;" name="email" id="email" type="text" value size="30" maxlength="245" />
+            </p>
+            <p id="subject">
+                <label>
+                    Subject
+                </label>
+                <br />
+                <input style="width:364px;height: 34px;" name="subject" id="subject" type="text" value size="30" maxlength="245" />
+            </p>
+            <p class="you_message">
+                <label form="message" style="padding-bottom:10px">Your Message</label>
+                <br />
+                <textarea style="height:auto;width: 364px" id="message" name="message" cols="45" rows="8" maxlength="65525"></textarea>
+            </p>
+            <p>
+                <input type="submit" class="button" value="Send" style="font-size:26px" onclick="return Validation();" />
+            </p>
+        }
 
+    </div>
+    <div class="col-sm-6 col-xs-12" style="margin-top:30px;font-size:18px">
+        <div>
+            <p>WHY USE KRIKLA INTERIOR DESIGN SERVICES?</p>
+
+        </div>
+
+    </div>
+</div>
+<!--End Content-->
 <!--authentic-->
 <script type="text/javascript">
     function Validation() {
@@ -81,8 +83,7 @@
             || $.trim($("#email").val()).length === 0
             || $.trim($("#subject").val()).length === 0
             || $.trim($("#message").val()).length === 0
-            )
-        {
+        ) {
             alert("vui long nhap thong tin");
             return false;
         }

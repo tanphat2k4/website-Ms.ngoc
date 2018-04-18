@@ -268,6 +268,9 @@
     <Content Include="images\bann1.jpg" />
     <Content Include="images\bann2.jpg" />
     <Content Include="images\bann3.jpg" />
+    <Content Include="images\Capture01.JPG" />
+    <Content Include="images\Capture02.JPG" />
+    <Content Include="images\Capture03.JPG" />
     <Content Include="images\cinqueterre.jpg" />
     <Content Include="images\iconACB.jpg" />
     <Content Include="images\iconDongA.jpg" />

@@ -5,10 +5,11 @@
 
 @{
     var rootNode = Umbraco.TypedContentAtRoot();
-    var currentNode = UmbracoContext.Current.PublishedContentRequest.PublishedContent;
     var BloghotItems = rootNode.DescendantsOrSelf("blogItem").Where(x => x.GetPropertyValue<bool>("blogHot")).ToList();
     var Blog = rootNode.DescendantsOrSelf("bLog").First();
     var improveItem = rootNode.DescendantsOrSelf("improvePacketForm").First();
+
+    var currentNode = UmbracoContext.Current.PublishedContentRequest.PublishedContent;
     var bannerArry = currentNode.GetPropertyValue<string>("banner").Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
     var discoverArray = currentNode.GetPropertyValue<string>("discover").Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
 }
@@ -353,11 +354,11 @@
                         url = image.Url;
                     }
 
-                <li>
-                    <div class="item  @(discoverArray.IndexOf(id) == 1 ? "active" : "")">
-                        <img src="@url" alt="Empty" width="460" height="345">
-                    </div>
-                </li>
+                    <li>
+                        <div class="item  @(discoverArray.IndexOf(id) == 1 ? "active" : "")">
+                            <img src="@url" alt="Empty" width="460" height="345">
+                        </div>
+                        </li>
 
                     }
                 </ul>

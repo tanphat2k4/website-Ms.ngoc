@@ -11,19 +11,20 @@
 <body>
 
     <!--start path-->
-    <div class="path" style="height: 45px;width:100%;background-color:rgba(0,0,0,0.05)">
-        <div class="container-fluid" id="path" style="height:45px;width: 1200px;margin-top:80px">
+    <div class="path" style="height: 45px;width:100%;border-bottom:0.5px solid rgba(0,0,0,0.23) ">
+        <div class="container-fluid" id="path" style="height:45px;width: 100%;margin-top:80px">
             <div id="groupPath">
-                <ul style="list-style:none">
-                    <li><a href="/"><div style="color:black"><i class="fa fa-home"></i></div></a></li>
-                    <li><a href="#"><div><i class="fa fa-angle-right"></i></div></a></li>
-                    <li><a href="@currentNode.Url"><p>BLOG</p></a></li>
-                    <li><a href="#"><div><i class="fa fa-angle-right"></i></div></a></li>
-                    <li><a href="#"><p>@currentNode.Name</p></a></li>
+                <ul style="list-style:none;margin-bottom: 6px;margin-left: -53px;">
+                    <li style="font-size:18px"><a href="/"><div style="color:black"><i class="fa fa-home"></i></div></a></li>
+                    <li style="font-size:18px;margin-left: -7px;"><a href="#"><div><i class="fa fa-angle-right"></i></div></a></li>
+                    <li style="font-size:18px;margin-left: -7px;padding-top: 0;"><a href="@currentNode.Url"><p>BLOG</p></a></li>
+                    <li style="font-size:18px;margin-left: -7px;"><a href="#"><div><i class="fa fa-angle-right"></i></div></a></li>
+                    <li style="font-size:18px;margin-left: -7px;padding-top: 0;"><p style="font-size: 12px;margin-top: 6px;">@currentNode.Name</p></li>
                 </ul>
             </div>
         </div>
     </div>
+
     <!--End Path-->
     <div class="clearfix"></div>
     <!--left-->
@@ -31,17 +32,17 @@
         <article class="hentry has-post-thumbnail">
             <div class="entry-featured">
                 @foreach (var id in thumbnail)
-                 {
+                {
                     var image = Umbraco.TypedMedia(id);
                     var url = String.Empty;
                     if (image != null)
-                        {
+                    {
                         url = image.Url;
-                        }
+                    }
                     <div class="entry-thumb">
                         <img style="width:881px;height:587px" src="@url" alt="empty" />
                     </div>
-                 }
+                }
 
             </div>
             <div class="entry-wrap">
@@ -99,7 +100,7 @@
             </div>
         </div>
     </div>
- 
+
     <!--right-->
     <aside class="sidebar right" role="complementary">
         <div id="categories-2" class="widget widget_categories">
