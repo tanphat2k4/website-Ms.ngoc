@@ -19,8 +19,8 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "f0e226cd3446cf9f")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "49bd4a9fc908bbf7")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.5")]
 
 namespace Umbraco.Web.PublishedContentModels
 {
@@ -162,6 +162,42 @@ namespace Umbraco.Web.PublishedContentModels
 		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<PRocess, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// steps01
+		///</summary>
+		[ImplementPropertyType("steps01")]
+		public IPublishedContent Steps01
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("steps01"); }
+		}
+
+		///<summary>
+		/// steps02
+		///</summary>
+		[ImplementPropertyType("steps02")]
+		public IPublishedContent Steps02
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("steps02"); }
+		}
+
+		///<summary>
+		/// steps03
+		///</summary>
+		[ImplementPropertyType("steps03")]
+		public IPublishedContent Steps03
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("steps03"); }
+		}
+
+		///<summary>
+		/// steps04
+		///</summary>
+		[ImplementPropertyType("steps04")]
+		public IPublishedContent Steps04
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("steps04"); }
 		}
 	}
 

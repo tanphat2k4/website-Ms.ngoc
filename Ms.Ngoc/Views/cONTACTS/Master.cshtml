@@ -24,6 +24,27 @@
     <script src="~/js/Slider/jquery.jcarousel.min.js"></script>
     <script src="~/js/Slider/jquery-2.1.1.min.js"></script>
     <script src="~/js/Slider/site.js"></script>
+    <script>
+        $(function () {
+            $('#jcarousel')
+                .jcarousel({
+                    wrap: 'circular'
+                })
+                .jcarouselAutoscroll({
+                    interval: 2000,
+                    target: '+=1',
+                    autostart: true
+                });
+            var url = window.location.href;
+            $("#menu").find("a").each(function () {
+                var $self = $(this);
+                if (url.indexOf($self.attr("href")) > 1) {
+                    $("#menu").find("li").removeClass("menu_active");
+                    $self.closest("li").addClass("menu_active");
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -37,7 +58,7 @@
                     <span class="icon-bar" style="background-color:#97b2ba"></span>
                     <span class="icon-bar" style="background-color:#97b2ba"></span>
                 </button>
-                <a class="navbar-brand" href="#" style="float:left" id="logo">krikla</a>
+                <a class="navbar-brand" href="#" style="float:left;margin-left: 59px;" id="logo">krikla</a>
             </div>
             <div class="collapse navbar-collapse text-center" id="menu">
                 <ul class="nav navbar-nav ">

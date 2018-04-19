@@ -38,11 +38,7 @@
         <div class="entry-content content">
             <div class="x-selection" style="margin: 0px;padding: 0px 0px;background-color: transparent;">
                 <div>
-                    <div style="width: 30.66666%;float: left;margin-right: 4%;margin-top: 66px;">
-                        <img style="border-radius: 6px;margin-bottom: 1.313em;vertical-align: middle;border: 0;" class="x-img x-img-rounded" src="@(aboutItem.GetPropertyValue<string>("images"))" alt="Empty" />
-                    </div>
-                    
-                    <div class="container max width" style="margin-right: 0;width: 65.33332%;float: left;">
+                    <div class="container max width">
                         @Html.Raw((aboutItem.GetPropertyValue<string>("aboutUsItem")))
                     </div>
                 </div>

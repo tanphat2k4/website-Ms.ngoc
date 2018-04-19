@@ -295,6 +295,11 @@
     <Content Include="images\Portfolio_01_06.jpg" />
     <Content Include="images\Portfolio_02.jpg" />
     <Content Include="images\sanfran.jpg" />
+    <Content Include="images\step0301.jpg" />
+    <Content Include="images\step0302.jpg" />
+    <Content Include="images\step04.jpg" />
+    <Content Include="images\steps01.jpg" />
+    <Content Include="images\steps02.jpg" />
     <Content Include="js\Slider\jquery-1.9.1.min.js" />
     <Content Include="js\Slider\jquery-2.1.1.min.js" />
     <Content Include="js\Slider\jquery.galleryview-3.0-dev.js" />
