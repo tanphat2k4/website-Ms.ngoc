@@ -401,3 +401,32 @@
  2018-04-19 15:10:19,388 [P9336/D2/T12] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
  2018-04-19 15:10:19,419 [P9336/D2/T12] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 42ms)
  2018-04-19 15:10:19,591 [P9336/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-04-18 15:10:19
+ 2018-04-19 17:54:51,716 [P9336/D2/T34] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-19 17:54:51,718 [P9336/D2/T34] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-04-19 17:54:51,718 [P9336/D2/T34] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-04-19 17:54:51,754 [P9336/D2/T34] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 36ms)
+ 2018-04-19 17:54:52,029 [P9336/D2/T35] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-19 17:54:52,030 [P9336/D2/T35] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-19 17:54:52,030 [P9336/D2/T35] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2018-04-19 17:54:52,051 [P9336/D2/T35] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 20ms)
+ 2018-04-19 17:54:59,823 [P9336/D2/T24] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username tanphat2k4@gmail.com from IP address ::1
+ 2018-04-19 17:54:59,823 [P9336/D2/T24] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: tanphat2k4@gmail.com logged in from IP address ::1
+ 2018-04-19 17:55:02,061 [P9336/D2/T33] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-19 17:55:02,061 [P9336/D2/T33] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-19 17:55:02,062 [P9336/D2/T33] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2018-04-19 17:55:02,073 [P9336/D2/T33] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 11ms)
+ 2018-04-19 17:55:02,106 [P9336/D2/T33] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-19 17:55:02,107 [P9336/D2/T33] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-19 17:55:02,107 [P9336/D2/T33] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2018-04-19 17:55:02,107 [P9336/D2/T33] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2018-04-19 17:55:02,112 [P9336/D2/T33] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-19 17:55:02,113 [P9336/D2/T33] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-19 17:55:02,113 [P9336/D2/T33] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2018-04-19 17:55:02,131 [P9336/D2/T33] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 18ms)
+ 2018-04-19 17:55:02,175 [P9336/D2/T33] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-04-19 17:55:02,176 [P9336/D2/T33] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-04-19 17:55:02,176 [P9336/D2/T33] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2018-04-19 17:55:02,187 [P9336/D2/T33] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 10ms)
+ 2018-04-19 18:14:29,689 [P9336/D2/T34] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: tanphat2k4@gmail.com, IP Address: ::1
+ 2018-04-19 18:30:12,934 [P9336/D2/T24] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username tanphat2k4@gmail.com from IP address ::1
+ 2018-04-19 18:30:12,937 [P9336/D2/T24] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: tanphat2k4@gmail.com logged in from IP address ::1

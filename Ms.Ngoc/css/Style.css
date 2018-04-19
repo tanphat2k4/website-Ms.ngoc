@@ -403,7 +403,8 @@ hr {
 /**Start Looking... **/
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: #1ECBF4;
+    color: white;
+
 }
 
 .carousel-indicators li {
@@ -413,6 +414,10 @@ hr {
     .carousel-indicators li.active {
         background-color: #1ECBF4;
     }
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    right: 50%;
+    margin-right: -10px;
+}
 /**End Looking... **/
 /**Start steep process**/
 .step {
