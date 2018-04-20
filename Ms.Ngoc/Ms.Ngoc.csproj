@@ -276,6 +276,10 @@
     <Content Include="images\Portfolio_01_05.jpg" />
     <Content Include="images\Portfolio_01_06.jpg" />
     <Content Include="images\Portfolio_02.jpg" />
+    <Content Include="images\SOLUTIONS_01.JPG" />
+    <Content Include="images\SOLUTIONS_02.JPG" />
+    <Content Include="images\solution_03.JPG" />
+    <Content Include="images\solution_04.JPG" />
     <Content Include="images\step0301.jpg" />
     <Content Include="images\step0302.jpg" />
     <Content Include="images\step04.jpg" />
