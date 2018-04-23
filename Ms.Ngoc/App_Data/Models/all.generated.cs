@@ -8,8 +8,8 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "b9aa2823247d1be2")]
-[assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "20eaedf8a82f73ae")]
+[assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 
 // FILE: models.generated.cs
@@ -350,9 +350,9 @@ namespace Umbraco.Web.PublishedContentModels
 		/// Images
 		///</summary>
 		[ImplementPropertyType("images")]
-		public IEnumerable<IPublishedContent> Images
+		public IPublishedContent Images
 		{
-			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("images"); }
+			get { return this.GetPropertyValue<IPublishedContent>("images"); }
 		}
 	}
 

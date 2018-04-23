@@ -30,9 +30,6 @@
 
     var listItems = projects.Skip((page - 1) * pageSize).Take(pageSize).ToList();
 }
-
-
-
     <!--Start Path-->
     <div class="path" style="height: 45px;width:100%;border-bottom:0.5px solid rgba(0,0,0,0.23) ">
         <div class="container-fluid" id="path" style="height:45px;width: 100%;margin-top:80px">
@@ -76,28 +73,28 @@
             <div class="pagingWrapper">
                 <ul class="paging" style="margin: 0 auto;padding-left: 1px;padding-top: 10px;">
                     @if (page > 1)
-            {
+                 {
                 <li class="number"><a href="?page=@(page - 1)" title="@(page - 1)"><<</a></li>
-    }
+                 }
                     @for (int p = startItem; p < endItem; p++)
-            {
+                {
                 string selected = (p + 1 == page) ? "selected" : String.Empty;
                 if (selected.Trim().Length != 0)
                 {
                     <li class="number @selected"><a href="javascript:void(0);" title="@(p + 1)">@(p + 1)</a></li>
-        }
-        else
-        {
+                 }
+                else
+                 {
             <li class="number @selected"><a href="?page=@(p + 1)" title="@(p + 1)">@(p + 1)</a></li>
-}
-}
+                }
+                }
                     @if (page < totalPages)
-            {
+                {
                 <li class="number"><a href="?page=@(page + 1)" title="@(page + 1)">>></a></li>
-    }
+                }
                 </ul>
             </div>
-}
+            }
             </div>
         </div>
         <!--End paging-->
