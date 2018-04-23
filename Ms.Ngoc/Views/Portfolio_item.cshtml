@@ -6,7 +6,9 @@
 @{
     var rootNode = Umbraco.TypedContentAtRoot();
     var protfolio = rootNode.DescendantsOrSelf("portfolio").First();
+    var protfoli = rootNode.DescendantsOrSelf("")
     var currentNode = UmbracoContext.Current.PublishedContentRequest.PublishedContent;
+    var thumbnail = currentNode.GetPropertyValue<string>("thumbnail").Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
 }
 
 <body>
@@ -28,14 +30,32 @@
     <!--StartContent-->
     <!--StartImageContent-->
     <div style="width:1200px;margin:0 auto;height:88px;margin-bottom: 3em;margin-top: 3em;">
-        <span style="font-size:40px;text-align:center; display:block">“FURNISH” PACKAGE. HALLWAYS IN THE APARTMENT BLOCK. BUDGET £2,000</span>
+        <span style="font-size:40px;text-align:center; display:block">@currentNode.Name</span>
     </div>
     <div style="width:1200px;margin:0 auto;margin-bottom:3em">
-        <div class="col-sm-4 col-xs-12">
-            <div style="margin-bottom:3em">
-                <img src="~/images/Portfolio_01_01.jpg" alt="" width="300" height="540" />
-            </div>
-        </div>
+        @foreach (var id in thumbnail)
+    {
+        var image = Umbraco.TypedMedia(id);
+        var url = String.Empty;
+            if(image != null)
+        {
+            url = image.Url;
+        }
+            <ul>
+                <li>
+                    <div class="col-sm-4 col-xs-12">
+                        <div style="margin-bottom:3em">
+                            <img src="@url" alt="" width="300" height="540" />
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        
+}
+
+        
+
+
         <div class="clearfix"></div>
     </div>
     <!--The end ImageContent-->
