@@ -8,7 +8,7 @@ using  Umbraco.Web;
 using  Umbraco.ModelsBuilder;
 using  Umbraco.ModelsBuilder.Umbraco;
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "e1c7d4d5ad6adaa7")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "c52a2906a00b524f")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.1")]
 
 
@@ -318,50 +318,6 @@ namespace Umbraco.Web.PublishedContentModels
 		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<COntacts, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
-		}
-	}
-
-	/// <summary>Portfolio_item</summary>
-	[PublishedContentModel("portfolio_item")]
-	public partial class Portfolio_item : PublishedContentModel
-	{
-#pragma warning disable 0109 // new is redundant
-		public new const string ModelTypeAlias = "portfolio_item";
-		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
-#pragma warning restore 0109
-
-		public Portfolio_item(IPublishedContent content)
-			: base(content)
-		{ }
-
-#pragma warning disable 0109 // new is redundant
-		public new static PublishedContentType GetModelContentType()
-		{
-			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
-		}
-#pragma warning restore 0109
-
-		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Portfolio_item, TValue>> selector)
-		{
-			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
-		}
-
-		///<summary>
-		/// Images
-		///</summary>
-		[ImplementPropertyType("images")]
-		public IPublishedContent Images
-		{
-			get { return this.GetPropertyValue<IPublishedContent>("images"); }
-		}
-
-		///<summary>
-		/// Thumbnail
-		///</summary>
-		[ImplementPropertyType("thumbnail")]
-		public IEnumerable<IPublishedContent> Thumbnail
-		{
-			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("thumbnail"); }
 		}
 	}
 
@@ -696,6 +652,50 @@ namespace Umbraco.Web.PublishedContentModels
 		public bool HideInNavigation
 		{
 			get { return this.GetPropertyValue<bool>("hideInNavigation"); }
+		}
+	}
+
+	/// <summary>Portfolio_item</summary>
+	[PublishedContentModel("portfolio_item")]
+	public partial class Portfolio_item : Portfolio
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "portfolio_item";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public Portfolio_item(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Portfolio_item, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// images
+		///</summary>
+		[ImplementPropertyType("images")]
+		public IEnumerable<IPublishedContent> Images
+		{
+			get { return this.GetPropertyValue<IEnumerable<IPublishedContent>>("images"); }
+		}
+
+		///<summary>
+		/// Thumbnail
+		///</summary>
+		[ImplementPropertyType("thumbnail")]
+		public IPublishedContent Thumbnail
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("thumbnail"); }
 		}
 	}
 
