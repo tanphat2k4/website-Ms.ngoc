@@ -46,6 +46,7 @@
     <div class="clearfix"></div>
     <div class="col-sm-6 col-xs-12" style="margin-top:30px">
         <p style="font-size:18px">SEND US YOUR MESSAGE USING THE FORM BELOW</p>
+
         @using (Html.BeginForm())
         {
             <p id="name">
@@ -53,26 +54,26 @@
                     YOUR NAME(required)
                 </label>
                 <br />
-                <input style="width:364px;height: 34px;" name="name" id="name" type="text" value size="30" maxlength="245" />
+                <input style="width:364px;height: 34px;" name="name" id="name" type="text" required="required" size="30" maxlength="245" />
             </p>
             <p id="email">
                 <label>
                     YOUR EMAIL(required)
                 </label>
                 <br />
-                <input style="width:364px;height: 34px;" name="email" id="email" type="text" value size="30" maxlength="245" />
+                <input style="width:364px;height: 34px;" name="email" id="email" type="text"  required="required" value size="30" maxlength="245" />
             </p>
             <p id="subject">
                 <label>
                     Subject
                 </label>
                 <br />
-                <input style="width:364px;height: 34px;" name="subject" id="subject" type="text" value size="30" maxlength="245" />
+                <input style="width:364px;height: 34px;" name="subject" id="subject" type="text" required="required" value size="30" maxlength="245" />
             </p>
             <p class="you_message">
                 <label form="message" style="padding-bottom:10px">Your Message</label>
                 <br />
-                <textarea style="height:auto;width: 364px" id="message" name="message" cols="45" rows="8" maxlength="65525"></textarea>
+                <textarea style="height:auto;width: 364px" id="message" name="message" cols="45" rows="8" maxlength="65525" required="required"></textarea>
             </p>
             <p>
                 <input type="submit" class="button" value="Send" style="font-size:26px" onclick="return Validation();" />
@@ -211,17 +212,17 @@
                 t.button.fadeOut("medium", function () { t.widget.stop().show().animate({ bottom: "30px", opacity: 1 }, 2 * t.delay), t.overlay.fadeIn(t.delay) })
         })
     });</script>
-
 <!--End MessageFacebook-->
-<!--authentic-->
+
+<!--authentic formContact-->
 <script type="text/javascript">
     function Validation() {
-        if ($.trim($("#name").val()).length === 0
-            || $.trim($("#email").val()).length === 0
-            || $.trim($("#subject").val()).length === 0
-            || $.trim($("#message").val()).length === 0
+        if ($.trim($("#name").value()).length === 0
+                || $.trim($("#email").value)) value.length === 0
+                || $.trim($("#subject").value()).length === 0
+                || $.trim($("#message").value()).length === 0
         ) {
-            alert("vui long nhap thong tin");
+            alert("Please enter the information");
             return false;
         }
         return true;

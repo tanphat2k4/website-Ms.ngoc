@@ -7,6 +7,7 @@ using Umbraco.Web.Mvc;
 using Umbraco.Web.Models;
 using System.Net.Mail;
 using System.Configuration;
+using Umbraco.Core.Services;
 
 namespace Ms.Ngoc.Controllers
 {
@@ -21,15 +22,17 @@ namespace Ms.Ngoc.Controllers
                 var Email = Request["email"];
                 var subject = Request["subject"];
                 var message = Request["message"];
+                var dateNow = string.Format("[0]-[1]", DateTime.Now.ToString());
                 //Creat Service
                 var contentServices = Services.ContentService;
                 var person = contentServices.CreateContent(fullName, model.Content.Id, "potential_Customer");
+                
                 //Creat Person
                 person.SetValue("name_customer",fullName);
                 person.SetValue("email",Email);
                 person.SetValue("subject",subject);
                 person.SetValue("message", message);
-                SendMail(model);
+                //SendMail(model);
                 //refesh page
                 contentServices.SaveAndPublishWithStatus(person);
             }
@@ -39,7 +42,7 @@ namespace Ms.Ngoc.Controllers
         {
             var formEmail = new MailAddress(System.Configuration.ConfigurationManager.AppSettings["sendEmailForm"]);
             var formPassword = System.Configuration.ConfigurationManager.AppSettings["EmailPassword"];
-            var toAddress = new MailAddress("tanphat2k4@gmail.com");
+            var toAddress = new MailAddress("phat.nguyentan710202@gmail.com");
             string subject = ConfigurationManager.AppSettings["EmailSubject"];
             string body = model.message;
             var message = new MailMessage(formEmail, toAddress)
@@ -53,13 +56,13 @@ namespace Ms.Ngoc.Controllers
                 var smtp = new SmtpClient();
                 smtp.Send(message);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
             }
-            
+
         }
 
     }
-   
+
 }
