@@ -39,17 +39,17 @@
     <script src="~/js/Slider/jquery.jcarousel.min.js"></script>
     <script src="~/js/Slider/jquery-2.1.1.min.js"></script>
     <script src="~/js/Slider/site.js"></script>
-    <script>
-        $(function () {
+    <script type="text/javascript">
+        function () {
             var url = window.location.href;
             $("#menu").find("a").each(function () {
                 var $self = $(this);
-                if (url.indexOf($self.attr("href")) > 1) {
-                    $("#menu").find("li").removeClass("menu_active");
+                if (url.indexOf($self.attr("href")) > 0) {
+                    
                     $self.closest("li").addClass("menu_active");
                 }
             });
-        });
+        };
     </script>
 </head>
 
@@ -69,7 +69,7 @@
             </div>
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="nav navbar-nav " style="background-color: white;">
-                    <li class="menu_active"><a href="/">Home</a></li>
+                    <li ><a href="/">Home</a></li>
                     <li><a href="@aboutUs.Url">ABoutus</a></li>
                     <li><a href="@process.Url">process</a></li>
                     <li><a href="@packages.Url">packages</a></li>

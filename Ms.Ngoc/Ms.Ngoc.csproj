@@ -294,7 +294,6 @@
     <Content Include="js\Slider\jquery.timers-1.2.js" />
     <Content Include="js\Slider\js-image-slider.js" />
     <Content Include="js\Slider\jssor.slider.min.js" />
-    <Content Include="js\Slider\site.js" />
     <Content Include="js\Slider\slider.js" />
     <Content Include="Media\Web.config" />
     <Content Include="config\umbracoSettings.config" />
