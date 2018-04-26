@@ -6,7 +6,7 @@
 @{
     var rootNode = Umbraco.TypedContentAtRoot();
     var protfolio = rootNode.DescendantsOrSelf("portfolio").First();
-    var protfoli = rootNode.DescendantsOrSelf("")
+    
     var currentNode = UmbracoContext.Current.PublishedContentRequest.PublishedContent;
     var thumbnail = currentNode.GetPropertyValue<string>("thumbnail").Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
 }
@@ -52,10 +52,6 @@
             </ul>
         
 }
-
-        
-
-
         <div class="clearfix"></div>
     </div>
     <!--The end ImageContent-->
