@@ -96,15 +96,18 @@ textarea {
     padding-bottom: 11px;
     font-size: 18px;
 }
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover{
+
+}
 .dropdown-menu {
     position: absolute;
     top: 100%;
-    right: 0;
+    left: -284%;
     z-index: 1000;
     display: none;
     float: left;
     min-width: 160px;
-    padding: 5px 0;
+    padding: 5px 5px 5px 5px;
     margin: 2px 0 0;
     font-size: 14px;
     text-align: left;
@@ -336,7 +339,7 @@ hr {
 }
 .menu_active {
     background-color: #9adaec4a;
-    color: white !important;
+    color: black !important;
     text-transform:uppercase;
 }
 .navbar-nav {

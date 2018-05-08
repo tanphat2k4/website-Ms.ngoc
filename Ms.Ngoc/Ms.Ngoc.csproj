@@ -291,6 +291,7 @@
     <Content Include="js\Slider\jquery-2.1.1.min.js" />
     <Content Include="js\Slider\jquery.galleryview-3.0-dev.js" />
     <Content Include="js\Slider\jquery.jcarousel.min.js" />
+    <Content Include="js\Slider\jquery.singlePageNav.min.js" />
     <Content Include="js\Slider\jquery.timers-1.2.js" />
     <Content Include="js\Slider\js-image-slider.js" />
     <Content Include="js\Slider\jssor.slider.min.js" />
